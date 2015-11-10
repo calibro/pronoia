@@ -1,0 +1,182 @@
+{
+    "children": [
+        {
+            "name": "stimulants",
+            "class": "category",
+            "children": [
+                {
+                    "name": "Amphetamines",
+                    "class": "substance",
+                    "size": 450,
+                    "color": "stimulants",
+                    "label": null
+                },
+                {
+                    "name": "Amt",
+                    "class": "substance",
+                    "size": 236,
+                    "color": "stimulants",
+                    "label": null
+                },
+                {
+                    "name": "Cocaine",
+                    "class": "substance",
+                    "size": 416,
+                    "color": "stimulants",
+                    "label": null
+                },
+                {
+                    "name": "Nutmeg",
+                    "class": "substance",
+                    "size": 238,
+                    "color": "stimulants",
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "hallucinogenics",
+            "class": "category",
+            "children": [
+                {
+                    "name": "Ayahuasca",
+                    "class": "substance",
+                    "size": 101,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Dmt",
+                    "class": "substance",
+                    "size": 338,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "H.b. woodrose",
+                    "class": "substance",
+                    "size": 296,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "LSD",
+                    "class": "substance",
+                    "size": 1168,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "MDMA",
+                    "class": "substance",
+                    "size": 1191,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Morning glory",
+                    "class": "substance",
+                    "size": 418,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Mushrooms",
+                    "class": "substance",
+                    "size": 1715,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Nitrous oxide",
+                    "class": "substance",
+                    "size": 319,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Salvia divinorum",
+                    "class": "substance",
+                    "size": 1514,
+                    "color": "hallucinogenics",
+                    "label": null
+                },
+                {
+                    "name": "Syrian rue",
+                    "class": "substance",
+                    "size": 315,
+                    "color": "hallucinogenics",
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "sedatives",
+            "class": "category",
+            "children": [
+                {
+                    "name": "Dxm",
+                    "class": "substance",
+                    "size": 581,
+                    "color": "sedatives",
+                    "label": null
+                },
+                {
+                    "name": "GBL",
+                    "class": "substance",
+                    "size": 72,
+                    "color": "sedatives",
+                    "label": null
+                },
+                {
+                    "name": "GHB",
+                    "class": "substance",
+                    "size": 145,
+                    "color": "sedatives",
+                    "label": null
+                },
+                {
+                    "name": "Ketamine",
+                    "class": "substance",
+                    "size": 286,
+                    "color": "sedatives",
+                    "label": null
+                },
+                {
+                    "name": "Kratom",
+                    "class": "substance",
+                    "size": 259,
+                    "color": "sedatives",
+                    "label": null
+                }
+            ]
+        },
+        {
+            "name": "nootropics/supplements",
+            "class": "category",
+            "children": [
+                {
+                    "name": "Melatonin",
+                    "class": "substance",
+                    "size": 121,
+                    "color": "nootropics/supplements",
+                    "label": null
+                },
+                {
+                    "name": "Modafinil",
+                    "class": "substance",
+                    "size": 108,
+                    "color": "nootropics/supplements",
+                    "label": null
+                },
+                {
+                    "name": "Piracetam",
+                    "class": "substance",
+                    "size": 100,
+                    "color": "nootropics/supplements",
+                    "label": null
+                }
+            ]
+        }
+    ]
+}

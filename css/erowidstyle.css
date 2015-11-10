@@ -1,0 +1,422 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+
+
+body{
+  position: relative;
+
+/*margin size of the footer*/
+
+}
+
+
+
+.stimulants{
+color: #FC1325;
+}
+
+.sedatives{
+color: #3CEEED;
+}
+
+.supplements{
+  color:#30D49D;
+}
+
+.hallucinogenics{
+  color:#FC4C8F;
+}
+
+
+.pink{
+	background-color: #FFF4F4;
+}
+.red{
+	background-color: red;
+}
+
+
+
+
+/*HEADER*/
+
+  #big-header{
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/brand.jpg);
+    background-attachment: fixed;
+  }
+
+
+
+
+.layer {
+    height: 600px;
+    color: white;
+}
+#base-layer {
+    overflow: hidden;
+}
+
+#layer-one {
+    background-image: url(../img/brand.png);
+  }
+#layer-two {
+    background-image: url(../img/brand.png);
+
+
+  }
+
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    opacity: 1 !important;
+    text-align: center;
+    padding-top: 190px;
+}
+
+#slider h2{
+font-family: 'Crimson Text', serif;
+font-size: 24px;
+color: #FFFFFF;
+line-height: 32px;
+letter-spacing: 0.1px;
+
+}
+
+
+#logo{
+    background-image: url(../img/logo.png);
+    height: 181px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#intro{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Crimson Text', serif;
+}
+
+
+#intro p{
+font-family: 'Crimson Text', serif;
+font-size: 24px;
+color: #373737;
+line-height: 33px;
+
+}
+
+#intro a{
+text-decoration: none;
+color: #373737;
+border-bottom: none;
+font-style: italic;
+padding-bottom: 2px;
+
+  background: none;
+}
+
+
+
+/*non funziona bene l'animazione il bordo si crea dall alto*/
+#intro a:hover,
+#intro a:active,
+#intro a:focus
+{
+text-decoration: none;
+padding-bottom: 2px;
+border-bottom: 2px solid #373737;
+outline: none;
+
+}
+
+
+
+ .affix-top {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+.affix{
+ position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+
+
+}
+
+
+
+/*NAVIGATION*/
+
+
+
+.navbar{
+
+    border-radius: 0px;
+    border-left: 0px;
+    border-right:0px;
+    background-color: #FDFDFD;
+    border-top: 1px solid #F6F6F6;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+ul.nav a{
+
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 12px;
+color: #373737 !important;
+letter-spacing: 0.5px;
+line-height: 25px;
+font-weight: 900;
+text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+
+
+ul.nav a:hover,
+ul.nav a:active,
+ul.nav a:focus {
+  background-color: #FFF4F4 !important; }
+
+
+.navbar-nav>.active>a{
+   background-color: #FFF4F4 !important; 
+}
+
+/*SECTIONS*/
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10,
+#section11,
+#section12,
+#section13{
+	padding-top: 50px;
+	padding-bottom: 50px;
+font-family: 'Crimson Text', serif;
+}
+
+#section5{
+  padding-top: 0px;
+  padding-bottom: 0px;
+font-family: 'Crimson Text', serif;
+}
+
+
+
+
+.description{
+
+  }
+
+.description h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: #373737;
+    line-height: 35px;
+    margin-top: 0;
+    padding-right: 50px;
+    letter-spacing: 4px;
+  }
+
+.description h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: #373737;
+    letter-spacing: 3px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+.description a{
+  text-decoration: none;
+color: #373737;
+border-bottom: none;
+font-style: italic;
+padding-bottom: 2px;
+
+  background: none;
+}
+
+
+
+.description a:hover,
+.description a:active,
+.description a:focus
+{
+text-decoration: none;
+padding-bottom: 2px;
+border-bottom: 2px solid #373737;
+outline: none;
+
+}
+
+
+.description p{
+font-family: 'Crimson Text', serif;
+font-size: 20px;
+color: #373737;
+line-height: 29px;
+}
+
+.viz{
+    background-color: #FDFDFD;
+    border-top: 1px solid #F6F6F6;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+
+
+.viz img{
+width: 100%;
+height: 100%;
+}
+
+.viz svg{
+  width: 100%;
+  height: 100%;
+
+  display: block;
+}
+
+
+
+/*treemap d3 css*/
+      
+
+
+.node {
+  border: solid 1px white;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  transition: all .2s ease-in-out;
+  color: white;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+
+
+.node:hover{
+  background-color:#FFF4F4;
+  transform: scale(1.2, 1.2);
+  z-index: 9999;
+  color: #373737;
+  border: 1px solid #F6F6F6;
+  font-size: 12px !important;
+}
+
+
+
+/*BIGRAMS*/
+
+
+
+#bigram-nutmeg,
+#bigram-amphetamines,
+#bigram-amt{ }
+/* display: none; */
+
+
+/*buttons*/
+
+.btn-group-substances button{
+  font-size: 20px;
+  border: none;
+  border-radius: 0;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 15px;
+  border-bottom:2px solid white;
+  padding-bottom: calc(6px - 2px);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+
+.btn-default.stimulants:hover, 
+.btn-default.stimulants:active,
+.btn-default.stimulants:focus{
+background-color:white;
+border-bottom: 2px solid #FC1325;
+padding-bottom: 100%; /* fallback if needed */
+padding-bottom: calc(6px - 2px);
+color: #FC1325;
+outline: none;
+}
+
+.btn-default.sedatives:hover, 
+.btn-default.sedatives:active,
+.btn-default.sedatives:focus{
+background-color:white;
+border-bottom: 2px solid #3CEEED;
+padding-bottom: 100%; /* fallback if needed */
+padding-bottom: calc(6px - 2px);
+color: #3CEEED;
+outline: none;
+}
+
+.btn-default.supplements:hover, 
+.btn-default.supplements:active,
+.btn-default.supplements:focus{
+background-color:white;
+border-bottom: 2px solid #30D49D;
+padding-bottom: 100%; /* fallback if needed */
+padding-bottom: calc(6px - 2px);
+color: #30D49D;
+outline: none;
+}
+
+
+.btn-default.hallucinogenics:hover, 
+.btn-default.hallucinogenics:active,
+.btn-default.hallucinogenics:focus{
+background-color:white;
+border-bottom: 2px solid #FC4C8F;
+padding-bottom: 100%; /* fallback if needed */
+padding-bottom: calc(6px - 2px);
+color: #FC4C8F;
+outline: none;
+}
+
+
+
+/*FOOTER*/
+
+
+
+
