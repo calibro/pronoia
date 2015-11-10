@@ -29,8 +29,12 @@ d3.json("treemap.json", function(error, root) {
       .enter().append("div")
       .attr("class", "node")
       .call(position)
-      .style("background", function(d) { return d.children ? color(d.name) : null; })
-      .text(function(d) { return d.children ? null : d.name + ' (' + d.size + ' )'; });
+      .style("background", function(d) { return d.children ? null : color(d.color); })
+      .text(function(d) { return d.children ? null : d.name + ' (' + d.size + ' )'; })
+      .filter(function(d){
+        return d.children;
+      })
+      .style("pointer-events", "none")
 
   
 });
