@@ -12,20 +12,23 @@
     <title>Chemical youths - Erowid.org</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
-    <link href="../../css/erowidstyle.css" rel="stylesheet">
+    <link href="css/erowidstyle.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Custom styles for this project -->
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../js/ie-emulation-modes-warning.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="bower_components/sigma.js/sigma.min.js"></script>
+    <script src="bower_components/sigma.js/fixhover.js"></script>
+    <script src="bower_components/sigma.js/plugins/sigma.parsers.json.min.js"></script>
+    <script src="bower_components/sigma.js/plugins/sigma.plugins.filter.min.js"></script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -140,6 +143,13 @@
 
 
 <div class="container-fluid viz" id="section4">
+<<<<<<< HEAD
+=======
+   <div class="container">
+
+
+    <script src="../../js/treemap.js"></script>
+>>>>>>> origin/master
 
 </div> <!-- /container fluid-->
 
@@ -273,6 +283,7 @@ DMT <!-- fallback image in CSS -->
    <div class="container">
 
 
+
  <object type="image/svg+xml" data="img/bigrams/bigram-amphetamines.svg">
 bigram-amphetamine <!-- fallback image in CSS -->
   </object>
@@ -331,7 +342,36 @@ bigram-kratom <!-- fallback image in CSS -->
 
 <div class="container-fluid viz" id="section8">
    <div class="container">
-      <img src="img/network.svg">
+     <div class="row">
+       <div class="col-md-3">
+         <div class="row">
+           <div class="col-md-12">
+              <input id="searchsub" class="typeahead" type="text" placeholder="Search substance">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 networkSide">
+            <button class="btn btn-default" id="zoomReset">reset zoom</button>
+            <div class="btn-group">
+              <button class="btn btn-default" id="zoomOut">-</button>
+              <button class="btn btn-default" id="zoomIn">+</button>
+            </div>
+          </div>
+       </div>
+       <div class="row">
+         <div class="col-md-12">
+           <div class="selectedNodes">
+           </div>
+          </div>
+      </div>
+         <div class="linkedNodes">
+         </div>
+      </div>
+      <div class="col-md-9">
+        <div id="networkContainer">
+        </div>
+      </div>
+      </div>
     </div>
 </div> <!-- /container fluid-->
 
@@ -352,7 +392,16 @@ bigram-kratom <!-- fallback image in CSS -->
 
 <div class="container-fluid viz" id="section10">
    <div class="container">
-      <img src="img/co-use_overtime.svg">
+      <div class="row">
+        <div class="col-md-2">
+          <div id="bumpList">
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div id="bump">
+          </div>
+        </div>
+      </div>
     </div>
 </div> <!-- /container fluid-->
 
@@ -416,19 +465,16 @@ bigram-kratom <!-- fallback image in CSS -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-<script src="../../js/move-background-2.js"></script>
 
-<script src="../../js/scrollspy.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/move-background-2.js"></script>
+    <script src="js/scrollspy.js"></script>
+    <script src="js/affix.js"></script>
+    <script src="js/scripts-vari.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/bump.js"></script>
+    <script src="bower_components/typeahead.js/dist/typeahead.bundle.min.js"></script>
 
-<script src="../../js/affix.js"></script>
-<script src="../../js/scripts-vari.js"></script>
-<script src="../../js/treemap.js"></script>
-
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

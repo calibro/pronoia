@@ -1,0 +1,150 @@
+source	target	value	date	year
+amt	mdma	1	2000-09-01	2000
+amt	mdma	1	2000-06-01	2000
+amt	dpt	1	2001-09-01	2001
+amt	5-meo-dmt	1	2001-07-01	2001
+amt	5-meo-dipt	1	2001-07-01	2001
+amt	mushrooms	1	2001-07-01	2001
+amt	cannabis	1	2002-12-01	2002
+amt	cannabis	1	2002-11-01	2002
+amt	cannabis	1	2002-10-01	2002
+amt	cannabis	1	2002-10-01	2002
+amt	cannabis	1	2002-09-01	2002
+amt	cannabis	1	2002-09-01	2002
+amt	cannabis	1	2002-07-01	2002
+amt	cannabis	1	2002-06-01	2002
+amt	cannabis	1	2002-05-01	2002
+amt	cannabis	1	2002-05-01	2002
+amt	cannabis	1	2002-05-01	2002
+amt	cannabis	1	2002-04-01	2002
+amt	cannabis	1	2002-04-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	cannabis	1	2002-02-01	2002
+amt	5-meo-dmt	1	2002-12-01	2002
+amt	5-meo-dmt	1	2002-03-01	2002
+amt	5-meo-dmt	1	2002-03-01	2002
+amt	5-meo-dmt	1	2002-02-01	2002
+amt	nitrous oxide	1	2002-08-01	2002
+amt	nitrous oxide	1	2002-05-01	2002
+amt	nitrous oxide	1	2002-03-01	2002
+amt	nitrous oxide	1	2002-02-01	2002
+amt	alcohol	1	2002-09-01	2002
+amt	alcohol	1	2002-02-01	2002
+amt	ketamine	1	2002-07-01	2002
+amt	ketamine	1	2002-02-01	2002
+amt	cacti	1	2002-12-01	2002
+amt	mushrooms	1	2002-05-01	2002
+amt	salvia divinorum	1	2002-05-01	2002
+amt	cannabis	1	2003-12-01	2003
+amt	cannabis	1	2003-12-01	2003
+amt	cannabis	1	2003-11-01	2003
+amt	cannabis	1	2003-08-01	2003
+amt	cannabis	1	2003-06-01	2003
+amt	cannabis	1	2003-02-01	2003
+amt	5-meo-dipt	1	2003-10-01	2003
+amt	5-meo-dipt	1	2003-09-01	2003
+amt	alcohol	1	2003-09-01	2003
+amt	alcohol	1	2003-04-01	2003
+amt	salvia divinorum	1	2003-04-01	2003
+amt	salvia divinorum	1	2003-02-01	2003
+amt	mushrooms	1	2003-11-01	2003
+amt	mdma	1	2003-09-01	2003
+amt	dpt	1	2003-08-01	2003
+amt	lsd	1	2003-11-01	2003
+amt	dxm	1	2003-06-01	2003
+amt	caffeine	1	2003-06-01	2003
+amt	alprazolam	1	2003-04-01	2003
+amt	cannabis	1	2004-07-01	2004
+amt	cannabis	1	2004-01-01	2004
+amt	heroin	1	2004-06-01	2004
+amt	salvia divinorum	1	2004-10-01	2004
+amt	methadone	1	2004-06-01	2004
+amt	5-meo-dipt	1	2004-07-01	2004
+amt	propoxyphene	1	2004-06-01	2004
+amt	tramadol	1	2004-06-01	2004
+amt	dpt	1	2004-04-01	2004
+amt	cannabis	1	2005-11-01	2005
+amt	cannabis	1	2005-09-01	2005
+amt	caffeine	1	2005-11-01	2005
+amt	heroin	1	2005-12-01	2005
+amt	nitrous oxide	1	2005-10-01	2005
+amt	tobacco	1	2005-09-01	2005
+amt	5-meo-dipt	1	2005-09-01	2005
+amt	mdma	1	2005-09-01	2005
+amt	salvia divinorum	1	2005-03-01	2005
+amt	cannabis	1	2006-12-01	2006
+amt	cannabis	1	2006-04-01	2006
+amt	cannabis	1	2006-04-01	2006
+amt	cannabis	1	2006-04-01	2006
+amt	cannabis	1	2006-03-01	2006
+amt	5-meo-dipt	1	2006-08-01	2006
+amt	5-meo-dipt	1	2006-07-01	2006
+amt	heroin	1	2006-08-01	2006
+amt	heroin	1	2006-03-01	2006
+amt	alcohol	1	2006-04-01	2006
+amt	alcohol	1	2006-04-01	2006
+amt	nitrous oxide	1	2006-07-01	2006
+amt	lorazepam	1	2006-12-01	2006
+amt	caffeine	1	2006-12-01	2006
+amt	5-meo-dmt	1	2006-08-01	2006
+amt	tobacco	1	2006-12-01	2006
+amt	salvia divinorum	1	2006-07-01	2006
+amt	alprazolam	1	2006-12-01	2006
+amt	mushrooms	1	2006-07-01	2006
+amt	methadone	1	2006-03-01	2006
+amt	tramadol	1	2006-03-01	2006
+amt	cannabis	1	2007-10-01	2007
+amt	cannabis	1	2007-07-01	2007
+amt	cannabis	1	2007-03-01	2007
+amt	alcohol	1	2007-10-01	2007
+amt	methadone	1	2007-06-01	2007
+amt	tramadol	1	2007-06-01	2007
+amt	propoxyphene	1	2007-06-01	2007
+amt	dxm	1	2007-06-01	2007
+amt	cannabis	1	2008-09-01	2008
+amt	cannabis	1	2008-09-01	2008
+amt	cannabis	1	2008-09-01	2008
+amt	cannabis	1	2008-03-01	2008
+amt	cannabis	1	2008-03-01	2008
+amt	cannabis	1	2008-03-01	2008
+amt	cannabis	1	2008-03-01	2008
+amt	cannabis	1	2008-03-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	cannabis	1	2008-01-01	2008
+amt	alcohol	1	2008-03-01	2008
+amt	alcohol	1	2008-03-01	2008
+amt	alcohol	1	2008-01-01	2008
+amt	nitrous oxide	1	2008-02-01	2008
+amt	nitrous oxide	1	2008-01-01	2008
+amt	mdma	1	2008-09-01	2008
+amt	mdma	1	2008-01-01	2008
+amt	ketamine	1	2008-03-01	2008
+amt	lorazepam	1	2008-08-01	2008
+amt	caffeine	1	2008-01-01	2008
+amt	5-meo-dipt	1	2008-01-01	2008
+amt	cannabis	1	2010-11-01	2010
+amt	cannabis	1	2010-10-01	2010
+amt	piracetam	1	2010-12-01	2010
+amt	alcohol	1	2010-11-01	2010
+amt	cacti	1	2010-12-01	2010
+amt	cannabis	1	2012-10-01	2012
+amt	cannabis	1	2012-09-01	2012
+amt	cannabis	1	2013-07-01	2013
+amt	cannabis	1	2013-07-01	2013
+amt	cannabis	1	2013-07-01	2013
+amt	lsd	1	2013-07-01	2013
+amt	alprazolam	1	2013-07-01	2013
+amt	alcohol	1	2013-07-01	2013
+amt	tobacco	1	2013-07-01	2013
+amt	piracetam	1	2014-02-01	2014
+amt	ketamine	1	2014-02-01	2014
