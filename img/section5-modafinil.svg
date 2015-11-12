@@ -3010,214 +3010,280 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL -->
 </font>
 
 	<g id="Layer_1">
+	<text transform="matrix(1 0 0 1 760 35.5566)"><tspan x="0" y="0" fill="#30D49D" font-family="'CrimsonText-Roman'" font-size="15">Modafinil</tspan><tspan x="58.198" y="0" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15"> </tspan><tspan x="61.553" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">sex distribution</tspan></text>
 	<g>
+		<text transform="matrix(1 0 0 1 0 35.5566)"><tspan x="0" y="0" fill="#30D49D" font-family="'CrimsonText-Roman'" font-size="15">Modafinil</tspan><tspan x="58.198" y="0" fill="#3CEEED" font-family="'CrimsonText-Roman'" font-size="15"> </tspan><tspan x="61.553" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">weight distribution</tspan></text>
+		<g>
+			<text transform="matrix(1 0 0 1 0.2881 96.3779)" fill="#30D49D" font-family="'SourceSansPro-Regular'" font-size="18">104</text>
+			<text transform="matrix(1 0 0 1 0.2881 144.543)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">reports</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">with </tspan><tspan x="26.436" y="14" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="12">weight</tspan></text>
+		</g>
 	</g>
+	<text transform="matrix(1 0 0 1 380 35.5566)"><tspan x="0" y="0" fill="#30D49D" font-family="'CrimsonText-Roman'" font-size="15">Modafinil</tspan><tspan x="58.198" y="0" fill="#3CEEED" font-family="'CrimsonText-Roman'" font-size="15"> </tspan><tspan x="61.553" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">age distribution</tspan></text>
 	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 380.085 95.3779)" fill="#30D49D" font-family="'SourceSansPro-Regular'" font-size="18">20</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 380.085 144.543)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">reports</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">with </tspan><tspan x="26.436" y="14" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="12">age</tspan></text>
+		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 760 35.5557)"><tspan x="0" y="0" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15">Amphetamines </tspan><tspan x="92.607" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">sex distribution</tspan></text>
+	<text transform="matrix(1 0 0 1 760 95.3779)" fill="#30D49D" font-family="'SourceSansPro-Regular'" font-size="18">104</text>
 	<g>
-		<text transform="matrix(1 0 0 1 0 35.5557)"><tspan x="0" y="0" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15">Amphetamines </tspan><tspan x="92.607" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">weight distribution</tspan></text>
+		<text transform="matrix(1 0 0 1 760 144.543)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">reports</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="12">with</tspan><tspan x="23.447" y="14" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="12"> sex</tspan></text>
+	</g>
+	<text transform="matrix(1 0 0 1 863.4883 123.5117)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="11">male </tspan><tspan x="27.983" y="0" fill="#30D49D" font-family="'SourceSansPro-Regular'" font-size="11">85</tspan></text>
+	<text transform="matrix(1 0 0 1 853.7197 142.5391)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="11">female </tspan><tspan x="37.752" y="0" fill="#30D49D" font-family="'SourceSansPro-Regular'" font-size="11">19</tspan></text>
+	<g>
 		<g>
 			<g>
-				<text transform="matrix(1 0 0 1 0 95.3779)" fill="#FC1325" font-family="'SourceSansPro-Regular'" font-size="17">10,039</text>
+				<rect x="760" y="118.127" fill="#30D49D" width="64.09" height="6.021"/>
 			</g>
-			<g>
-				<rect y="111.128" opacity="0.1" fill="#FC1325" width="50.939" height="6.021"/>
-				<rect y="111.128" fill="#FC1325" width="16.687" height="6.021"/>
-			</g>
-			<text transform="matrix(1 0 0 1 0 140.6475)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">reports with</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">user weight</tspan></text>
 		</g>
 	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 380 35.5557)"><tspan x="0" y="0" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15">Amphetamines </tspan><tspan x="92.607" y="0" fill="#373737" font-family="'CrimsonText-Italic'" font-size="15">age distribution</tspan></text>
+	<g opacity="0.3">
 		<g>
 			<g>
-				<text transform="matrix(1 0 0 1 380.085 95.3779)" fill="#FC1325" font-family="'SourceSansPro-Regular'" font-size="17">454</text>
+				<rect x="824.09" y="118.127" fill="#30D49D" width="2.026" height="6.021"/>
 			</g>
-			<g>
-				<rect x="380.085" y="111.128" opacity="0.1" fill="#FC1325" width="50.939" height="6.021"/>
-				<rect x="380.085" y="111.128" fill="#FC1325" width="16.687" height="6.021"/>
-			</g>
-			<text transform="matrix(1 0 0 1 380.085 140.6475)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">reports with</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">user age</tspan></text>
 		</g>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 760 95.3779)" fill="#FC1325" font-family="'SourceSansPro-Regular'" font-size="17">1,567</text>
-		</g>
-		<g>
-			<rect x="760" y="111.128" opacity="0.1" fill="#FC1325" width="50.939" height="6.021"/>
-			<rect x="760" y="111.128" fill="#FC1325" width="16.687" height="6.021"/>
-		</g>
-		<text transform="matrix(1 0 0 1 760 140.6475)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">reports with</tspan><tspan x="0" y="14" fill="#373737" font-family="'SourceSansPro-Light'" font-size="11">user sex</tspan></text>
-	</g>
-	<rect x="911.026" y="117.811" fill="#E42628" width="26.354" height="5"/>
-	<rect x="911.026" y="137.539" fill="#E42628" width="190.527" height="5"/>
-	<text transform="matrix(1 0 0 1 847.7031 122.8105)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="11">female </tspan><tspan x="37.752" y="0" fill="#E42628" font-family="'SourceSansPro-Regular'" font-size="11">270</tspan></text>
-	<text transform="matrix(1 0 0 1 848.166 142.5391)"><tspan x="0" y="0" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="11">male </tspan><tspan x="27.982" y="0" fill="#E42628" font-family="'SourceSansPro-Regular'" font-size="11">1,937</tspan></text>
-	<text transform="matrix(1 0 0 1 909.4551 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">1</text>
-	<text transform="matrix(1 0 0 1 947.085 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">20</text>
-	<text transform="matrix(1 0 0 1 984.7148 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">40</text>
-	<text transform="matrix(1 0 0 1 1022.3457 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">60</text>
-	<text transform="matrix(1 0 0 1 1059.9746 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">80</text>
-	<text transform="matrix(1 0 0 1 1097.6055 155.4189)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">100</text>
-	<g>
-		<g>
-			<path fill="#FC1325" d="M286.889,146.469h1v1h-1V146.469z M279.889,146.469h1v1h-1V146.469z M267.889,146.469h1v1h-1V146.469z
-				 M249.889,142.469h1v5h-1V142.469z M246.889,146.469h1v1h-1V146.469z M244.889,140.469h1v7h-1V140.469z M241.889,143.469h1v4h-1
-				V143.469z M237.889,142.469h1v5h-1V142.469z M235.889,145.469h1v2h-1V145.469z M232.889,133.469h1v14h-1V133.469z
-				 M229.889,143.469h1v4h-1V143.469z M225.889,143.469h1v4h-1V143.469z M223.889,142.469h1v5h-1V142.469z M220.889,124.469h1v23h-1
-				V124.469z M218.889,146.469h1v1h-1V146.469z M216.889,140.469h1v7h-1V140.469z M215.889,145.469h1v2h-1V145.469z
-				 M214.889,134.469h1v13h-1V134.469z M212.889,145.469h1v2h-1V145.469z M211.889,133.469h1v14h-1V133.469z M210.889,146.469h1v1
-				h-1V146.469z M208.889,122.469h1v25h-1V122.469z M206.889,142.469h1v5h-1V142.469z M204.889,136.469h1v11h-1V136.469z
-				 M203.889,146.469h1v1h-1V146.469z M202.889,113.469h1v34h-1V113.469z M199.889,119.469h1v28h-1V119.469z M198.889,145.469h1v2
-				h-1V145.469z M197.889,120.469h1v27h-1V120.469z M195.889,145.469h1v2h-1V145.469z M193.889,123.469h1v24h-1V123.469z
-				 M191.889,145.469h1v2h-1V145.469z M190.889,99.469h1v48h-1V99.469z M189.889,137.469h1v10h-1V137.469z M187.889,114.469h1v33h-1
-				V114.469z M186.889,142.469h1v5h-1V142.469z M185.889,93.469h1v54h-1V93.469z M184.889,145.469h1v2h-1V145.469z M182.889,145.469
-				h1v2h-1V145.469z M181.889,124.469h1v23h-1V124.469z M180.889,139.469h1v8h-1V139.469z M178.889,106.469h1v41h-1V106.469z
-				 M177.889,143.469h1v4h-1V143.469z M176.889,123.469h1v24h-1V123.469z M174.889,146.469h1v1h-1V146.469z M173.889,145.469h1v2h-1
-				V145.469z M172.889,122.469h1v25h-1V122.469z M169.889,129.469h1v18h-1V129.469z M168.889,143.469h1v4h-1V143.469z
-				 M167.889,140.469h1v7h-1V140.469z M165.889,145.469h1v2h-1V145.469z M164.889,142.469h1v5h-1V142.469z M163.889,145.469h1v2h-1
-				V145.469z M160.889,146.469h1v1h-1V146.469z M157.889,146.469h1v1h-1V146.469z M152.889,146.469h1v1h-1V146.469z"/>
-		</g>
-	</g>
-	<g>
-		<path fill="none" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M95.514,90.469h3.25
-			 M95.514,104.469h3.25 M95.514,119.469h3.25 M95.514,133.469h3.25 M95.514,147.469h3.25"/>
 	</g>
 	<g>
 		
-			<line fill="none" stroke="#FC1325" stroke-width="0.25" stroke-miterlimit="10" x1="102.908" y1="147.846" x2="351.526" y2="147.846"/>
+			<line fill="none" stroke="#30D49D" stroke-width="0.25" stroke-miterlimit="10" x1="107.852" y1="147.852" x2="354" y2="147.852"/>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 88.8887 150.6455)" font-family="'SourceSansPro-Regular'" font-size="7">0 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 106.2749 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">1 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 84.8887 136.3018)" font-family="'SourceSansPro-Regular'" font-size="7">10 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 126.2271 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">18 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 84.8887 121.957)" font-family="'SourceSansPro-Regular'" font-size="7">20 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 147.853 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">35 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 84.8887 107.6133)" font-family="'SourceSansPro-Regular'" font-size="7">30 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 170.2749 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">52 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 84.8887 93.2686)" font-family="'SourceSansPro-Regular'" font-size="7">40 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 192.2983 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">69 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 101.6157 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">1 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 214.3223 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">86 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 121.7749 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">18 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 234.0093 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">103 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 144.0195 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">35 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 256.0332 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">120 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 166.2642 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">52 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 278.0571 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">137 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 188.5088 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">69 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 300.0806 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">154 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 210.7539 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">86 </text>
+		<g>
+			<text transform="matrix(1 0 0 1 322.1045 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">171 </text>
+		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 231.0254 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">103 </text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 253.27 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">120 </text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 275.5151 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">137 </text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 297.7598 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">154 </text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 320.1704 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">171 </text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 342.2495 159.0684)" font-family="'SourceSansPro-Regular'" font-size="7">188 </text>
-	</g>
-	<g>
-		<path fill="#FC1325" d="M564.118,139.511h1v5h-1V139.511z M549.118,127.511h2v17h-2V127.511z M544.118,139.511h2v5h-2V139.511z
-			 M540.118,139.511h2v5h-2V139.511z M535.118,127.511h2v17h-2V127.511z M530.118,133.511h2v11h-2V133.511z M525.118,127.511h2v17
-			h-2V127.511z M521.118,110.511h2v34h-2V110.511z M516.118,116.511h2v28h-2V116.511z M511.118,116.511h2v28h-2V116.511z
-			 M506.118,110.511h2v34h-2V110.511z M502.118,93.511h1v51h-1V93.511z M497.118,116.511h2v28h-2V116.511z M492.118,127.511h2v17h-2
-			V127.511z M487.118,139.511h2v5h-2V139.511z M482.118,139.511h2v5h-2V139.511z"/>
-	</g>
-	<g>
-		<path fill="none" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M475.118,87.511h2
-			 M475.118,98.511h2 M475.118,110.511h2 M475.118,121.511h2 M475.118,133.511h2 M475.118,144.511h2"/>
+		<g>
+			<text transform="matrix(1 0 0 1 344.1284 158.6787)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">188 </text>
+		</g>
 	</g>
 	<g>
 		
-			<line fill="none" stroke="#FC1325" stroke-width="0.25" stroke-miterlimit="10" x1="481.137" y1="144.888" x2="733.883" y2="144.888"/>
+			<line fill="none" stroke="#30D49D" stroke-width="0.25" stroke-miterlimit="10" x1="478.782" y1="147.521" x2="733.592" y2="147.521"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 467.1182 147.6875)" font-family="'SourceSansPro-Regular'" font-size="7">0 </text>
+			<text transform="matrix(1 0 0 1 476.8047 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">14 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 467.1182 136.2119)" font-family="'SourceSansPro-Regular'" font-size="7">2 </text>
+			<text transform="matrix(1 0 0 1 515.2666 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">22 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 467.1182 124.7373)" font-family="'SourceSansPro-Regular'" font-size="7">4 </text>
+			<text transform="matrix(1 0 0 1 553.7285 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">30 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 467.1182 113.2617)" font-family="'SourceSansPro-Regular'" font-size="7">6 </text>
+			<text transform="matrix(1 0 0 1 592.1904 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">38 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 467.1182 101.7861)" font-family="'SourceSansPro-Regular'" font-size="7">8 </text>
+			<text transform="matrix(1 0 0 1 630.6523 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">46 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 463.1182 90.3105)" font-family="'SourceSansPro-Regular'" font-size="7">10 </text>
+			<text transform="matrix(1 0 0 1 669.1133 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">54 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 479.6289 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">14 </text>
+			<text transform="matrix(1 0 0 1 707.5762 158.3477)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">62 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 517.7793 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">22 </text>
+			<g>
+				<line fill="none" x1="1.288" y1="104.681" x2="2.993" y2="104.681"/>
+			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 555.9292 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">30 </text>
+			<rect x="911.203" y="118.138" fill="#30D49D" width="161.13" height="6"/>
+		</g>
+	</g>
+	<rect x="911.203" y="136.647" fill="#30D49D" width="36.464" height="6"/>
+	<g>
+		<g>
+			<g>
+				<rect x="63.759" y="118.32" opacity="0.3" fill="#30D49D" width="2.452" height="5.638"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<rect y="118.32" fill="#30D49D" width="63.759" height="5.638"/>
+			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 594.0796 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">38 </text>
+			<g>
+				<rect x="392.147" y="117.617" opacity="0.3" fill="#30D49D" width="53.448" height="6.021"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<rect x="380.085" y="117.617" fill="#30D49D" width="12.062" height="6.021"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path fill="#30D49D" d="M301.072,139.727h1v5.573h-1V139.727z M280.072,139.727h1v5.573h-1V139.727z M253.072,133.727h1V145.3h-1
+			V133.727z M245.072,139.727h1v5.573h-1V139.727z M242.072,139.727h1v5.573h-1V139.727z M236.072,128.727h1V145.3h-1V128.727z
+			 M230.072,128.727h1V145.3h-1V128.727z M225.072,122.727h1V145.3h-1V122.727z M223.072,128.727h1V145.3h-1V128.727z
+			 M222.072,133.727h1V145.3h-1V133.727z M221.072,133.727h1V145.3h-1V133.727z M220.072,139.727h1v5.573h-1V139.727z
+			 M218.072,139.727h1v5.573h-1V139.727z M216.072,117.727h1V145.3h-1V117.727z M214.072,139.727h1v5.573h-1V139.727z
+			 M213.072,117.727h1V145.3h-1V117.727z M212.072,139.727h1v5.573h-1V139.727z M211.072,122.727h1V145.3h-1V122.727z
+			 M209.072,111.727h1V145.3h-1V111.727z M204.072,122.727h1V145.3h-1V122.727z M201.072,111.727h1V145.3h-1V111.727z
+			 M199.072,139.727h1v5.573h-1V139.727z M198.072,106.727h1V145.3h-1V106.727z M195.072,100.727h1V145.3h-1V100.727z
+			 M190.072,106.727h1V145.3h-1V106.727z M187.072,139.727h1v5.573h-1V139.727z M186.072,122.727h1V145.3h-1V122.727z
+			 M183.072,117.727h1V145.3h-1V117.727z M181.072,122.727h1V145.3h-1V122.727z M178.072,139.727h1v5.573h-1V139.727z
+			 M177.072,133.727h1V145.3h-1V133.727z M176.072,139.727h1v5.573h-1V139.727z M174.072,133.727h1V145.3h-1V133.727z
+			 M173.072,133.727h1V145.3h-1V133.727z M172.072,139.727h1v5.573h-1V139.727z M163.072,139.727h1v5.573h-1V139.727z"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M102.555,89.834h2.779
+			 M102.555,117.834h2.779 M102.555,145.407h2.779"/>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 94.0044 148.6074)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">0 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 632.2295 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">46 </text>
+			<text transform="matrix(1 0 0 1 93.4536 120.8203)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">5 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 670.3799 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">54 </text>
+			<text transform="matrix(1 0 0 1 89.5552 93.0342)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">10 </text>
+		</g>
+	</g>
+	<g>
+		<path fill="#30D49D" d="M730.9,131.859h2v13.573h-2V131.859z M725.9,131.859h2v13.573h-2V131.859z M643.9,131.859h2v13.573h-2
+			V131.859z M619.9,131.859h2v13.573h-2V131.859z M600.9,131.859h2v13.573h-2V131.859z M586.4,131.859h2v13.573h-2V131.859z
+			 M571.9,131.859h2v13.573h-2V131.859z M566.9,131.859h2v13.573h-2V131.859z M542.9,117.859h2v27.573h-2V117.859z M537.9,103.859h2
+			v41.573h-2V103.859z M533.9,131.859h2v13.573h-2V131.859z M528.9,131.859h2v13.573h-2V131.859z M518.9,131.859h2v13.573h-2
+			V131.859z M513.9,131.859h2v13.573h-2V131.859z M504.9,117.859h2v27.573h-2V117.859z M489.9,131.859h2v13.573h-2V131.859z"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" d="M476.701,89.831h2
+			 M476.701,103.831h2 M476.701,117.831h2 M476.701,131.831h2 M476.701,145.404h2"/>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 467.7002 148.6045)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">0 </text>
 		</g>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 708.5303 156.1104)" font-family="'SourceSansPro-Regular'" font-size="7">62 </text>
+			<text transform="matrix(1 0 0 1 467.7002 134.7109)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">1 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 467.7002 120.8174)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">2 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 467.7002 106.9248)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">3 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 467.7002 93.0312)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">4 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 908.4658 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">0 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 944.4434 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">20 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 982.4199 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">40 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 1020.3965 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">60 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 1058.374 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">80 </text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 1094.3506 158.2207)" fill="#373737" font-family="'SourceSansPro-Regular'" font-size="8">100 </text>
 		</g>
 	</g>
 </g>

@@ -101,6 +101,7 @@ letter-spacing: 0.1px;
     background-position: center;
 }
 
+
 #intro{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -309,7 +310,10 @@ height: 100%;
   display: block;
 }
 
-
+.viz object{
+  width: 100%;
+  height: 100%;
+}
 
 /*treemap d3 css*/
       
@@ -331,25 +335,39 @@ height: 100%;
 
 
 .node:hover{
-  background-color:#FFF4F4;
+ 
   transform: scale(1.2, 1.2);
   z-index: 9999;
-  color: #373737;
+  color: white;
   border: 1px solid #F6F6F6;
   font-size: 12px !important;
 }
 
+/*section5 demographics*/
+
+
+/*prove perchè non si vede quando è piccolo 
+
+#section5 object{
+    
+    border-bottom: 1px solid #F6F6F6;
+    border-left: 1px solid #F6F6F6;
+        border-right: 1px solid #F6F6F6;
+        padding: 10px;
+        background-color: #FDFDFD;
+         transition: all .2s ease-in-out;
+}
+
+#section5 object:hover{
+
+  transform: scale(1.2, 1.2);
+}
+*/
+
+
 
 
 /*BIGRAMS*/
-
-
-
-#bigram-nutmeg,
-#bigram-amphetamines,
-#bigram-amt{ }
-/* display: none; */
-
 
 /*buttons*/
 
