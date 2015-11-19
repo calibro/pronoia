@@ -9,7 +9,7 @@ var div = d3.select("#treemap").append("div")
     .style("height", (height + margin.top + margin.bottom) + "px")
     .style("margin", "auto")
 
-var color = d3.scale.ordinal().domain(['stimulants','hallucinogenics','sedatives','nootropics/supplements']).range(['#FF0815','#9578B3','#1FD59C','#2AEFEE']);
+var color = d3.scale.ordinal().domain(['stimulants','hallucinogenics','nootropics/supplements','sedatives']).range(['#FF0815','#9578B3','#1FD59C','#2AEFEE']);
 
 var treemap = d3.layout.treemap()
     .size([width, height])

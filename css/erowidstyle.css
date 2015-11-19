@@ -187,6 +187,10 @@ outline: none;
       margin-bottom: 0px;
   }
 
+
+.navbar-collapse{
+  padding-left: 0px;
+}
   .affix ~ .postaffix {
      //: relative;
      margin-top: 50px;
