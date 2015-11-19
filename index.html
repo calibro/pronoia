@@ -1,480 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
 
-    <title>Chemical youths - Erowid.org</title>
+  <title>Chemical youths - Erowid.org</title>
+  <!-- External fonts css -->
+  <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Pronoia css -->
+  <link href="css/erowidstyle.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/d3.min.js"></script>
+  <script src="js/sigma.min.js"></script>
+  <script src="js/fixhover.js"></script>
+  <script src="js/sigma.parsers.json.min.js"></script>
+  <script src="js/sigma.plugins.filter.min.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-    <link href="css/erowidstyle.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <!-- Custom styles for this project -->
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
 
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-    <script src="bower_components/sigma.js/sigma.min.js"></script>
-    <script src="bower_components/sigma.js/fixhover.js"></script>
-    <script src="bower_components/sigma.js/plugins/sigma.parsers.json.min.js"></script>
-    <script src="bower_components/sigma.js/plugins/sigma.plugins.filter.min.js"></script>
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body data-spy="scroll" data-target=".navbar" data-offset="100">
-
-   <!-- Header -->
-
-<div id="big-header">
-
-<div class="container-fluid">
-
-
-  <div id="base-layer">
-    <div id="layer-one" class="layer">
-
-        <div id="layer-two" class="layer">
-
-           <section id="slider" class="slider">
-                <div id="logo">
-                </div>
-
-                <h2>an exploration of big data analysis in anthropological drug research
-                </h2>
-           </section>
+  <div class="container-fluid eroHeader">
+    <div id="erowidHeader">
+      <div id="title" >
+        <div class="glitch" data-text="VISUALISING EROWID">
+          VISUALISING EROWID
         </div>
+      </div>
+      <div id="subtitle">
+        <h2>
+          a data driven anthropological drug research
+        </h2>
+      </div>
     </div>
   </div>
 
-</div>
 
-
-<div class="container-fluid pink">
-  <div class="container" id="intro">
-
-
-
-    <p>The user-based online organization <a href="https://www.erowid.org/"  target="_blank">Erowid</a> aims to provide unbiased information about a broad variety of psychoactive substances. Their website provides pharmacological, chemical, biomedical and botanical resources, and hosts more than 20.000 experience reports written by drug users. This large body of user-based knowledge is frequently consulted by drug users who wish to reduce the harmful effects of drug consumption, and whose primary source of information is more and more online.</p>
-   <p> In order to understand the knowledge practices associated with Erowid, and their entanglements with contemporary drug use, our team of digital anthropologists explored novel methods to analyze Erowid's digital content and connect it with ethnographic expertise. The results that we present on this website provide both a glimpse into practices of reporting drug use, into actual patterns of drug consumption, and into the possibilities of a digitally literate anthropology.</p>
+  <div class="container-fluid pink" id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>The user-based online organization <a href="https://www.erowid.org/"  target="_blank">Erowid</a> aims to provide unbiased information about a broad variety of psychoactive substances. Their website provides pharmacological, chemical, biomedical and botanical resources, and hosts more than 20.000 experience reports written by drug users. This large body of user-based knowledge is frequently consulted by drug users who wish to reduce the harmful effects of drug consumption, and whose primary source of information is more and more online.</p>
+          <p> In order to understand the knowledge practices associated with Erowid, and their entanglements with contemporary drug use, our team of digital anthropologists explored novel methods to analyze Erowid's digital content and connect it with ethnographic expertise. The results that we present on this website provide both a glimpse into practices of reporting drug use, into actual patterns of drug consumption, and into the possibilities of a digitally literate anthropology.</p>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-</div>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default affix-top" data-spy="affix">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default affix-top" data-spy="affix">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <!--    <a class="navbar-brand" href="#">Project name</a> -->
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-           <li><a href="#intro">About</a></li>
-            <li><a href="#section1">Overview</a></li>
-            <li><a class="page-scroll" href="#section6">Language</a></li>
-            <li><a href="#section7">Co-use</a></li>
-             <li><a href="#section11">Dosage</a></li>
-
-          </ul>
-
-        </div><!--/.nav-collapse -->
       </div>
-    </nav>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#intro">About</a></li>
+          <li><a href="#section1">Overview</a></li>
+          <li><a class="page-scroll" href="#section6">Language</a></li>
+          <li><a href="#section7">Co-use</a></li>
+          <li><a href="#section11">Dosage</a></li>
 
-   <!-- Content -->
+        </ul>
 
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
 
-<div class="container-fluid description" id="section1">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Dataset description</h1>
-            <h4>overview</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>From a total of 20,534 reports, we consider for the following analysises only the ones concerning a selected set of substances. Reports mentioning the subset constitute roughly the 45% of the full dataset available on Erowid.org.</p>
-        </div>
+  <!-- Content -->
+
+  <div class="container description postaffix" id="section1">
+    <div class="row" >
+      <div class="col-xs-6 col-md-4">
+        <h1>Dataset description</h1>
+        <h4>overview</h4>
+      </div>
+      <div class="col-xs-12 col-md-8"><p>From a total of 20,534 reports, we consider for the following analysises only the ones concerning a selected set of substances. Reports mentioning the subset constitute roughly the 45% of the full dataset available on Erowid.org.</p>
       </div>
     </div>
-</div> <!-- /container fluid-->
+  </div>
 
 
-<div class="container-fluid viz" id="section2">
-   <div class="container">
-      <img src="img/overview.svg">
+  <div class="container-fluid viz" id="section2">
+    <div class="container">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="940px" height="247.686px" viewBox="165 21.738 940 247.686" enable-background="new 165 21.738 940 247.686"
+      xml:space="preserve">
+      <g>
+        <g transform="translate(1,1)">
+          <rect x="164" y="20.738" fill="#303030" width="429.149" height="247.686"/>
+          <title>in: 9,480</title>
+        </g>
+        <rect x="594.149" y="21.738" fill="#FFEFEF" width="510.852" height="247.686"/>
+        <g>
+          <text transform="matrix(1 0 0 1 186.3591 236.6738)" fill="#FFEFEF" font-family="'Crimson Text'" font-weight="bold" font-size="25.5204">9,480 </text>
+          <text transform="matrix(1 0 0 1 243.9763 236.6738)" fill="#FFEFEF" font-family="'Crimson Text'" font-size="12.7602">reports</text>
+          <text transform="matrix(1 0 0 1 186.3591 251.9863)" fill="#FFEFEF" font-family="'Crimson Text'" font-size="12.7602">mention one of the selected substances</text>
+        </g>
+        <g>
+          <text transform="matrix(1 0 0 1 628.5061 236.6738)" fill="#303030" font-family="'Crimson Text'" font-weight="bold" font-size="25.5204">11,282 </text>
+          <text transform="matrix(1 0 0 1 689.6594 236.6738)" fill="#303030" font-family="'Crimson Text'" font-size="12.7602">reports</text>
+          <text transform="matrix(1 0 0 1 628.5061 251.9863)" fill="#303030" font-family="'Crimson Text'" font-size="12.7602">do not mention one of the selected substances</text>
+        </g>
+      </g>
+    </svg>
+
+  </div>
+</div>
+<div class="container description" id="section3">
+  <div class="row" >
+    <div class="col-xs-6 col-md-4">
+      <h1>Dataset breakdown per substance</h1>
+      <h4>overview</h4>
     </div>
-</div> <!-- /container fluid-->
-
-<div class="container-fluid description" id="section3">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Dataset breakdown per substance</h1>
-            <h4>overview</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>The visualization shows the number of reports mentioning at least one time one of the selected substances. On a total of 19,168 reports, the biggest amount of reports are related to <span class="hallucinogenics">hallucinogenics (7320)</span>, followed by <span class="stimulants">stimulant substances (1332)</span> and <span class="sedatives">sedatives (1309)</span>. The smallest amount of reports are related to <span class="supplements">nootropics and supplements (325)</span>.</p>
-        </div>
-      </div>
+    <div class="col-xs-12 col-md-8"><p>The visualization shows the number of reports mentioning at least one time one of the selected substances. On a total of 19,168 reports, the biggest amount of reports are related to <span class="hallucinogenics">hallucinogenics (7320)</span>, followed by <span class="stimulants">stimulant substances (1332)</span> and <span class="sedatives">sedatives (1309)</span>. The smallest amount of reports are related to <span class="supplements">nootropics and supplements (325)</span>.</p>
     </div>
-</div> <!-- /container fluid-->
+  </div>
+</div>
 
 
 
 <div class="container-fluid viz" id="section4">
-<<<<<<< HEAD
-=======
-   <div class="container">
 
-
-    <script src="../../js/treemap.js"></script>
->>>>>>> origin/master
-
-</div> <!-- /container fluid-->
-
-
-<div class="container-fluid description" id="section4">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Users demographics</h1>
-            <h4>Overview</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>The visualization presents some general statistics about users reporting experiences. Even though almost 9.000 (80%) users have reported their body weight, there are some inaccuracies in the weight reporting activity. Average weight is 60 kg. Only 969 reports out of 11,187 are from users who have declared their age. The average user is 18 years old. 9,683 reports out of 11,187 are from users who have declared their sex. There are 1,335 reports from female users <i class="fa fa-venus"></i> and 8,348 from male users <i class="fa fa-mars"></i>.</p>
-
-<div class="btn-group btn-group-substances" role="group" aria-label="...">
-
-<button type="button" class="btn btn-default stimulants">Stimulants</button>
-<button type="button" class="btn btn-default sedatives">Sedatives</button>
-<button type="button" class="btn btn-default supplements">Supplements</button>
-<button type="button" class="btn btn-default hallucinogenics">Hallucinogenics</button>
-
-
-</div>
-
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="treemap">
       </div>
     </div>
-</div> <!-- /container fluid-->
+  </div>
+</div>
+
+
+
+<div class="container description" id="section4">
+  <div class="row" >
+    <div class="col-xs-6 col-md-4">
+      <h1>Users demographics</h1>
+      <h4>Overview</h4>
+    </div>
+    <div class="col-xs-12 col-md-8"><p>The visualization presents some general statistics about users reporting experiences. Even though almost 9.000 (80%) users have reported their body weight, there are some inaccuracies in the weight reporting activity. Average weight is 60 kg. Only 969 reports out of 11,187 are from users who have declared their age. The average user is 18 years old. 9,683 reports out of 11,187 are from users who have declared their sex. There are 1,335 reports from female users <i class="fa fa-venus"></i> and 8,348 from male users <i class="fa fa-mars"></i>.</p>
+
+      <div class="btn-group btn-group-substances">
+
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants">Stimulants</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives">Sedatives</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements">Supplements</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics">Hallucinogenics</button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 <div class="container-fluid viz" id="section5">
-   <div class="container">
 
-
-    <object type="image/svg+xml" data="img/section5-amphetamines.svg">
- Amphetamines <!-- fallback image in CSS -->
-  </object>
-
-      <object type="image/svg+xml" data="img/section5-amt.svg">
- AMT <!-- fallback image in CSS -->
-  </object>
-
-        <object type="image/svg+xml" data="img/section5-cocaine.svg">
-Cocaine <!-- fallback image in CSS -->
-  </object>
-    
-            <object type="image/svg+xml" data="img/section5-dxm.svg">
-DXM <!-- fallback image in CSS -->
-  </object>
-    
-
-
-            <object type="image/svg+xml" data="img/section5-ghb.svg">
-GHB <!-- fallback image in CSS -->
-  </object>
-    
-  
-
-            <object type="image/svg+xml" data="img/section5-gbl.svg">
-GBL <!-- fallback image in CSS -->
-  </object>
-
-
-
-               <object type="image/svg+xml" data="img/section5-melatonin.svg">
-melatonin <!-- fallback image in CSS -->
-  </object> 
-
-
-                 <object type="image/svg+xml" data="img/section5-modafinil.svg">
-modafinil <!-- fallback image in CSS -->
-  </object> 
-    
-
-                   <object type="image/svg+xml" data="img/section5-ayahuasca.svg">
-ayahuasca <!-- fallback image in CSS -->
-  </object> 
-
-
-
-<object type="image/svg+xml" data="img/section5-dmt.svg">
-DMT <!-- fallback image in CSS -->
-  </object> 
-         
-    
+  <div class="slotwrapper" id="stimulants">
+    <div class="slot">
+      <img class="slotImg" width="1114px" src="img/statistics/ampetamines.png">
+      <img class="slotImg" width="1114px" src="img/statistics/amt.png">
+      <img class="slotImg" width="1114px" src="img/statistics/cocaine.png">
+      <img class="slotImg" width="1114px" src="img/statistics/nutmeg.png">
     </div>
-</div> <!-- /container fluid-->
+  </div>
 
+  <div class="slotwrapper" id="sedatives">
+    <div class="slot">
+      <img class="slotImg" width="1114px" src="img/statistics/dxm.png">
+      <img class="slotImg" width="1114px" src="img/statistics/ghb.png">
+      <img class="slotImg" width="1114px" src="img/statistics/gbl.png">
+      <img class="slotImg" width="1114px" src="img/statistics/ketamine.png">
+      <img class="slotImg" width="1114px" src="img/statistics/kratom.png">
+    </div>
+  </div>
 
-<div class="container-fluid description" id="section6">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Most used bigrams per substance</h1>
-            <h4>Language</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>The text of each report mentioning the same substance has been mined in order to extract relevant language connected to a particualar substance. The visualization shows the top 30 <a href="https://en.wikipedia.org/wiki/Bigram"  target="_blank">bigrams</a> for each substance and the number of time in which they occur in a subset of reports. </p>
+  <div class="slotwrapper" id="supplements">
+    <div class="slot">
+      <img class="slotImg" width="1114px" src="img/statistics/melatonin.png">
+      <img class="slotImg" width="1114px" src="img/statistics/modafinil.png">
+      <img class="slotImg" width="1114px" src="img/statistics/piracetam.png">
+    </div>
+  </div>
 
-<div class="btn-group btn-group-substances" role="group" aria-label="...">
-
-  <button type="button" class="btn btn-default stimulants">Amphetamines</button>
- <button type="button" class="btn btn-default stimulants">AMT</button>
- <button type="button" class="btn btn-default stimulants">Cocaine</button>
- <button type="button" class="btn btn-default stimulants">Nutmeg</button>
- <button type="button" class="btn btn-default sedatives">DXM</button>
- <button type="button" class="btn btn-default sedatives">GHB + GBL</button>
- <button type="button" class="btn btn-default sedatives">Ketamine</button>
- <button type="button" class="btn btn-default sedatives">Kratom</button>
- <button type="button" class="btn btn-default supplements">Melatonin</button>
- <button type="button" class="btn btn-default supplements">Modafinil</button>
- <button type="button" class="btn btn-default supplements">Piracetam</button>
- <button type="button" class="btn btn-default hallucinogenics">Ayahuasca</button>
- <button type="button" class="btn btn-default hallucinogenics">DMT</button>
- <button type="button" class="btn btn-default hallucinogenics">H.B. Woodrose</button>
- <button type="button" class="btn btn-default hallucinogenics">LSD</button>
- <button type="button" class="btn btn-default hallucinogenics">MDMA</button>
- <button type="button" class="btn btn-default hallucinogenics">Morning Glory</button>
- <button type="button" class="btn btn-default hallucinogenics">Mushrooms</button>
- <button type="button" class="btn btn-default hallucinogenics">Nitrous Oxide</button>
- <button type="button" class="btn btn-default hallucinogenics">Salvia</button>
- <button type="button" class="btn btn-default hallucinogenics">Syrian Rue</button>
+  <div class="slotwrapper" id="hallucinogenics">
+    <div class="slot">
+      <img class="slotImg" width="1114px" src="img/statistics/ayahuasca.png">
+      <img class="slotImg" width="1114px" src="img/statistics/dmt.png">
+      <img class="slotImg" width="1114px" src="img/statistics/hbwoodrose.png">
+      <img class="slotImg" width="1114px" src="img/statistics/lsd.png">
+      <img class="slotImg" width="1114px" src="img/statistics/mdma.png">
+      <img class="slotImg" width="1114px" src="img/statistics/morningglory.png">
+      <img class="slotImg" width="1114px" src="img/statistics/mushrooms.png">
+      <img class="slotImg" width="1114px" src="img/statistics/morningglory.png">
+      <img class="slotImg" width="1114px" src="img/statistics/nitrousoxide.png">
+      <img class="slotImg" width="1114px" src="img/statistics/salvia.png">
+      <img class="slotImg" width="1114px" src="img/statistics/syrianrue.png">
+    </div>
+  </div>
 
 </div>
-        </div>
+
+
+
+<div class="container description" id="section6">
+  <div class="row" >
+    <div class="col-xs-6 col-md-4">
+      <h1>Most used bigrams per substance</h1>
+      <h4>Language</h4>
+    </div>
+    <div class="col-xs-12 col-md-8"><p>The text of each report mentioning the same substance has been mined in order to extract relevant language connected to a particualar substance. The visualization shows the top 30 <a href="https://en.wikipedia.org/wiki/Bigram"  target="_blank">bigrams</a> for each substance and the number of time in which they occur in a subset of reports. </p>
+
+      <div class="btn-group btn-group-substances" >
+
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="amphetamines">Amphetamines</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="amt">AMT</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="cocaine">Cocaine</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="nutmeg">Nutmeg</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="dxm">DXM</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="ghb-gbl">GHB + GBL</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="ketamine">Ketamine</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="kratom">Kratom</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="melatonin">Melatonin</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="modafinil">Modafinil</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="piracetam">Piracetam</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="ayahuasca">Ayahuasca</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="dmt">DMT</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="hbwoodrose">H.B. Woodrose</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="lsd">LSD</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="mdma">MDMA</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="morningglory">Morning Glory</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="mushrooms">Mushrooms</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="nitrousoxide">Nitrous Oxide</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="salvia">Salvia</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="syrianrue">Syrian Rue</button>
+
       </div>
     </div>
-</div> <!-- /container fluid-->
+  </div>
+</div>
 
 
 
 <div class="container-fluid viz" id="section6">
-   <div class="container">
-
-
-
- <object type="image/svg+xml" data="img/bigrams/bigram-amphetamines.svg">
-bigram-amphetamine <!-- fallback image in CSS -->
-  </object>
-    
- <object type="image/svg+xml" data="img/bigrams/bigram-amt.svg">
-bigram-amphetamine <!-- fallback image in CSS -->
-  </object>
-
-    
- <object type="image/svg+xml" data="img/bigrams/bigram-cocaine.svg">
-bigram-cocaine <!-- fallback image in CSS -->
-  </object>
-
-
-   <object type="image/svg+xml" data="img/bigrams/bigram-nutmeg.svg">
-bigram-nutmeg <!-- fallback image in CSS -->
-  </object>     
-    
- <object type="image/svg+xml" data="img/bigrams/bigram-dxm.svg">
-bigram-dxm <!-- fallback image in CSS -->
-  </object>
- 
-
-
-
- <object type="image/svg+xml" data="img/bigrams/bigram-ghb-gbl.svg">
-bigram-ghb gbl <!-- fallback image in CSS -->
-  </object>
-
- <object type="image/svg+xml" data="img/bigrams/bigram-ketamine.svg">
-bigram-ketamine <!-- fallback image in CSS -->
-  </object>
-
- <object type="image/svg+xml" data="img/bigrams/bigram-kratom.svg">
-bigram-kratom <!-- fallback image in CSS -->
-  </object>
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="bigramviz">
+      </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 
 <div class="container-fluid description" id="section7">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Substances' usage network</h1>
-            <h4>co-use</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>Quisque tempus eget ante ut tincidunt. Cras venenatis tempus ligula id mattis. Donec ut rutrum purus. Nulla sollicitudin, libero sit amet facilisis fringilla, leo sem aliquam erat, vitae convallis enim dolor eu urna. Nam vitae sem cursus, lacinia felis ut, ornare urna. Fusce quam arcu, ornare ultricies mollis eu, rhoncus vel enim. Cras vestibulum sem et sem finibus tempor. In ac blandit eros.</p>
-        </div>
+  <div class="container">
+    <div class="row" >
+      <div class="col-xs-6 col-md-4">
+        <h1>Substances' usage network</h1>
+        <h4>co-use</h4>
+      </div>
+      <div class="col-xs-12 col-md-8"><p>Quisque tempus eget ante ut tincidunt. Cras venenatis tempus ligula id mattis. Donec ut rutrum purus. Nulla sollicitudin, libero sit amet facilisis fringilla, leo sem aliquam erat, vitae convallis enim dolor eu urna. Nam vitae sem cursus, lacinia felis ut, ornare urna. Fusce quam arcu, ornare ultricies mollis eu, rhoncus vel enim. Cras vestibulum sem et sem finibus tempor. In ac blandit eros.</p>
       </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 
 <div class="container-fluid viz" id="section8">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-3">
-         <div class="row">
-           <div class="col-md-12">
-              <input id="searchsub" class="typeahead" type="text" placeholder="Search substance">
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-12">
+            <input id="searchsub" class="typeahead" type="text" placeholder="Search substance">
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-12 networkSide">
-            <button class="btn btn-default" id="zoomReset">reset zoom</button>
-            <div class="btn-group">
-              <button class="btn btn-default" id="zoomOut">-</button>
-              <button class="btn btn-default" id="zoomIn">+</button>
+          <div class="col-md-12">
+            <div class="selectedNodes no-opacity">
             </div>
           </div>
-       </div>
-       <div class="row">
-         <div class="col-md-12">
-           <div class="selectedNodes">
-           </div>
-          </div>
+        </div>
+        <div class="linkedNodes no-opacity">
+          <div class="networkSide"></div>
+        </div>
       </div>
-         <div class="linkedNodes">
-         </div>
-      </div>
-      <div class="col-md-9">
+      <div class="col-md-8">
         <div id="networkContainer">
+          <div id="controller">
+
+            <div class="btn-group-vertical">
+              <button class="btn btn-default" id="zoomIn">
+                <i class="fa fa-search-plus"></i>
+              </button>
+              <button class="btn btn-default" id="zoomReset">
+                <span class="glyphicon glyphicon-resize-full"></span>
+              </button>
+              <button class="btn btn-default" id="zoomOut">
+                <i class="fa fa-search-minus"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 
-<div class="container-fluid description" id="section9">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Usage trends overtime</h1>
-            <h4>co-use</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>Pellentesque commodo est at efficitur egestas. Nam mollis, nunc id iaculis auctor, urna nunc hendrerit lacus, eu congue arcu elit eget nulla. Maecenas scelerisque ornare ligula. Sed mattis nec arcu ac fermentum. Mauris quis est ultrices, tincidunt urna quis, dictum nisi. Etiam faucibus dignissim tortor.</p>
-        </div>
+
+<div class="container description" id="section9">
+  <div class="row" >
+    <div class="col-xs-6 col-md-4">
+      <h1>Usage trends overtime</h1>
+      <h4>co-use</h4>
+    </div>
+    <div class="col-xs-12 col-md-8"><p>Pellentesque commodo est at efficitur egestas. Nam mollis, nunc id iaculis auctor, urna nunc hendrerit lacus, eu congue arcu elit eget nulla. Maecenas scelerisque ornare ligula. Sed mattis nec arcu ac fermentum. Mauris quis est ultrices, tincidunt urna quis, dictum nisi. Etiam faucibus dignissim tortor.</p>
+      <div class="btn-group btn-group-substances" role="group">
+
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="amphetamines">Amphetamines</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="amt">AMT</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="cocaine">Cocaine</button>
+        <button type="button" class="btn btn-default stimulants" dtype="stimulants" data="nutmeg">Nutmeg</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="dxm">DXM</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="ghb">GHB</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="gbl">GBL</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="ketamine">Ketamine</button>
+        <button type="button" class="btn btn-default sedatives" dtype="sedatives" data="kratom">Kratom</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="melatonin">Melatonin</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="modafinil">Modafinil</button>
+        <button type="button" class="btn btn-default supplements" dtype="supplements" data="piracetam">Piracetam</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="ayahuasca">Ayahuasca</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="dmt">DMT</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="hbwoodrose">H.B. Woodrose</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="lsd">LSD</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="mdma">MDMA</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="morningglory">Morning Glory</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="mushrooms">Mushrooms</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="nitrousoxide">Nitrous Oxide</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="salvia">Salvia</button>
+        <button type="button" class="btn btn-default hallucinogenics" dtype="hallucinogenics" data="syrianrue">Syrian Rue</button>
+
       </div>
     </div>
-</div> <!-- /container fluid-->
+  </div>
+</div>
 
 
 <div class="container-fluid viz" id="section10">
-   <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-          <div id="bumpList">
-          </div>
+  <div class="container">
+    <div class="row bumpContainer">
+      <div class="col-md-2">
+        <h4>Total occurrences per substance</h4>
+        <div id="bumpList">
         </div>
-        <div class="col-md-10">
-          <div id="bump">
-          </div>
+      </div>
+      <div class="col-md-10">
+        <div id="bump">
         </div>
       </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 
 <div class="container-fluid description" id="section11">
-   <div class="container">
-      <div class="row" >
-        <div class="col-xs-6 col-md-4">
-            <h1>Distribution of users according to dosage</h1>
-            <h4>Dosage</h4>
-        </div>
-        <div class="col-xs-12 col-md-8"><p>The visualization shows the number of reports mentioning at least one time one of the selected substances. On a total of 19,168 reports, the biggest amount of reports are related to hallucinogenics (7320), followed by stimulant substances (1332) and sedatives (1309). The smallest amount of reports are related to nootropics and supplements (325).</p>
+  <div class="container">
+    <div class="row" >
+      <div class="col-xs-6 col-md-4">
+        <h1>Distribution of users according to dosage</h1>
+        <h4>Dosage</h4>
+      </div>
+      <div class="col-xs-12 col-md-8"><p>The visualization shows the number of reports mentioning at least one time one of the selected substances. On a total of 19,168 reports, the biggest amount of reports are related to hallucinogenics (7320), followed by stimulant substances (1332) and sedatives (1309). The smallest amount of reports are related to nootropics and supplements (325).</p>
 
 
-          <div class="btn-group btn-group-substances" role="group" aria-label="...">
+        <div class="btn-group btn-group-substances" role="group">
 
-   <button type="button" class="btn btn-default stimulants">Amphetamines</button>
- <button type="button" class="btn btn-default stimulants">AMT</button>
- <button type="button" class="btn btn-default stimulants">Cocaine</button>
- <button type="button" class="btn btn-default sedatives">DXM</button>
- <button type="button" class="btn btn-default sedatives">GBL</button>
- <button type="button" class="btn btn-default sedatives">GHB</button>
- <button type="button" class="btn btn-default sedatives">Ketamine</button>
- <button type="button" class="btn btn-default sedatives">Kratom</button>
- <button type="button" class="btn btn-default supplements">Modafinil</button>
- <button type="button" class="btn btn-default supplements">Piracetam</button>
- <button type="button" class="btn btn-default hallucinogenics">Ayahuasca</button>
- <button type="button" class="btn btn-default hallucinogenics">DMT</button>
- <button type="button" class="btn btn-default hallucinogenics">H.B. Woodrose</button>
- <button type="button" class="btn btn-default hallucinogenics">LSD</button>
- <button type="button" class="btn btn-default hallucinogenics">MDMA</button>
- <button type="button" class="btn btn-default hallucinogenics">Morning Glory</button>
- <button type="button" class="btn btn-default hallucinogenics">Mushrooms</button>
- <button type="button" class="btn btn-default hallucinogenics">Nitrous Oxide</button>
-</div>
+          <button type="button" class="btn btn-default stimulants" data="amphetamines">Amphetamines</button>
+          <button type="button" class="btn btn-default stimulants" data="amt">AMT</button>
+          <button type="button" class="btn btn-default stimulants" data="cocaine">Cocaine</button>
+          <button type="button" class="btn btn-default sedatives" data="dxm">DXM</button>
+          <button type="button" class="btn btn-default sedatives" data="ketamine">Ketamine</button>
+          <button type="button" class="btn btn-default sedatives" data="kratom">Kratom</button>
+          <button type="button" class="btn btn-default supplements" data="modafinil">Modafinil</button>
+          <button type="button" class="btn btn-default supplements" data="piracetam">Piracetam</button>
+          <button type="button" class="btn btn-default hallucinogenics" data="dmt">DMT</button>
+          <button type="button" class="btn btn-default hallucinogenics" data="mdma">MDMA</button>
         </div>
       </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 <div class="container-fluid viz" id="section12">
-   <div class="container">
-
-
-      <img src="img/co-use_overtime.svg">
-
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="dosage">
+      </div>
     </div>
+  </div>
 </div> <!-- /container fluid-->
 
 
 
 <footer class="footer">
-      <div class="container-fluid">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </footer>
+  <div class="container-fluid">
+    <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</footer>
 
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/typeahead.bundle.min.js"></script>
+<script src="js/pronoia.js"></script>
+<script src="js/treemap.js"></script>
+<script src="js/network.js"></script>
+<script src="js/bump.js"></script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/move-background-2.js"></script>
-    <script src="js/scrollspy.js"></script>
-    <script src="js/affix.js"></script>
-    <script src="js/scripts-vari.js"></script>
-    <script src="js/network.js"></script>
-    <script src="js/bump.js"></script>
-    <script src="bower_components/typeahead.js/dist/typeahead.bundle.min.js"></script>
-
-  </body>
+</body>
 </html>

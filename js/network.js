@@ -113,14 +113,23 @@ sigma.parsers.json('data/graph.json', {
       filter.neighborsOf(node.id).apply();
       var linked = sigInst.graph.nodes().filter(function(d){return !d.hidden && d.id != node.id})
 
-      d3.select('.selectedNodes').text(node.label);
+
+      d3.select('.selectedNodes')
+        .html("<h4>selected node</h4><p>" + node.label+"</p>");
+
+      d3.select('.selectedNodes').classed('no-opacity', false)
 
       var div = d3.select('.linkedNodes')
 
-      div.selectAll('.linkButton').remove();
+      div.select("h4").remove()
+      div.insert("h4", ".networkSide")
+      div.select("h4").text('linked substances')
 
-      div.selectAll('.linkButton')
-        .data(linked)
+      var divLink = div.select('.networkSide')
+      divLink.selectAll('.linkButton').remove();
+
+      divLink.selectAll('.linkButton')
+        .data(linked.sort(function(a,b){return d3.ascending(a.label,b.label)}))
         .enter()
         .append('span')
         .attr('class', 'linkButton badge')
@@ -130,6 +139,8 @@ sigma.parsers.json('data/graph.json', {
           var elm = sigInst.graph.nodes().filter(function(e){return e.id == d.id})[0]
           selectNode(elm)
         })
+
+      div.classed('no-opacity', false)
     }
 
     sigInst.bind('clickNode', function(e) {
@@ -147,14 +158,23 @@ sigma.parsers.json('data/graph.json', {
         filter.neighborsOf(e.data.node.id).apply();
         var linked = sigInst.graph.nodes().filter(function(d){return !d.hidden && d.id != e.data.node.id})
 
-        d3.select('.selectedNodes').text(e.data.node.label);
+
+        d3.select('.selectedNodes')
+          .html("<h4>selected node</h4><p>" + e.data.node.label+"</p>");
+
+        d3.select('.selectedNodes').classed('no-opacity', false)
 
         var div = d3.select('.linkedNodes')
 
-        div.selectAll('.linkButton').remove()
+        div.select("h4").remove()
+        div.insert("h4", ".networkSide")
+        div.select("h4").text('linked substances')
 
-        div.selectAll('.linkButton')
-          .data(linked)
+        var divLink = div.select('.networkSide')
+        divLink.selectAll('.linkButton').remove()
+
+        divLink.selectAll('.linkButton')
+          .data(linked.sort(function(a,b){return d3.ascending(a.label,b.label)}))
           .enter()
           .append('span')
           .attr('class', 'linkButton badge')
@@ -163,15 +183,21 @@ sigma.parsers.json('data/graph.json', {
           }).on('click', function(d){
             selectNode(d)
           })
+
+        div.classed('no-opacity', false)
       }
     });
 
    sigInst.bind('clickStage', function(e) {
      if(!drag){
        filter.undo().apply();
-       d3.select('.selectedNodes').text('');
-       var div = d3.select('.linkedNodes')
-       div.selectAll('.linkButton').remove();
+       d3.select('.selectedNodes').classed('no-opacity', true)
+       var div = d3.select('.linkedNodes').classed('no-opacity', true)
+       setTimeout(function(){
+         d3.select('.selectedNodes').html('')
+         div.select("h4").remove()
+         div.selectAll('.linkButton').remove();
+       },500)
       }
     });
 });
