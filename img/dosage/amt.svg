@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="132 170.9 1140 500" style="enable-background:new 132 170.9 1140 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#373737;}
+	.st0{fill:#847676;}
 	.st1{font-family:'SourceSansPro-Regular';}
 	.st2{font-size:10px;}
 	.st3{opacity:3.000000e-02;}
@@ -16,21 +16,21 @@
 	.st10{opacity:0.24;}
 	.st11{opacity:0.27;}
 	.st12{opacity:0.3;}
-	.st13{fill:none;stroke:#373737;stroke-width:0.5;stroke-linejoin:round;}
+	.st13{fill:none;stroke:#847676;stroke-width:0.5;stroke-linejoin:round;}
 	.st14{font-family:'SourceSansPro-Bold';}
-	.st15{fill:none;stroke:#A478D6;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#FC1235;stroke-miterlimit:10;}
 	.st16{font-family:'SourceSansPro-Light';}
-	.st17{fill:none;stroke:#A478D6;stroke-width:10;stroke-miterlimit:10;}
-	.st18{opacity:0.8;fill:none;stroke:#A478D6;stroke-width:10;stroke-miterlimit:10;}
-	.st19{opacity:0.5;fill:none;stroke:#A478D6;stroke-width:10;stroke-miterlimit:10;}
-	.st20{opacity:0.3;fill:none;stroke:#A478D6;stroke-width:10;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#FC1235;stroke-width:10;stroke-miterlimit:10;}
+	.st18{opacity:0.8;fill:none;stroke:#FC1235;stroke-width:10;stroke-miterlimit:10;}
+	.st19{opacity:0.5;fill:none;stroke:#FC1235;stroke-width:10;stroke-miterlimit:10;}
+	.st20{opacity:0.3;fill:none;stroke:#FC1235;stroke-width:10;stroke-miterlimit:10;}
 	.st21{font-size:12px;}
 	.st22{enable-background:new    ;}
-	.st23{fill:none;stroke:#373737;stroke-width:0.9854;}
-	.st24{fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;}
-	.st25{opacity:0.8;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
-	.st26{opacity:0.5;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
-	.st27{opacity:0.3;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st23{fill:none;stroke:#847676;stroke-width:0.9854;}
+	.st24{fill:none;stroke:#847676;stroke-width:10;stroke-miterlimit:10;}
+	.st25{opacity:0.8;fill:none;stroke:#847676;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st26{opacity:0.5;fill:none;stroke:#847676;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st27{opacity:0.3;fill:none;stroke:#847676;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
 </style>
 <g id="levels">
 </g>
