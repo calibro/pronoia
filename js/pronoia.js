@@ -9,24 +9,13 @@ $('nav').affix({
 var offset = 50;
 
 $('.navbar li a').click(function(e) {
-    // event.preventDefault();
-    // $($(this).attr('href'))[0].scrollIntoView();
-    // scrollBy(0, -offset);
-
-    // prevent default anchor click behavior
-e.preventDefault();
-
-// store hash
-var hash = this.hash;
-
-// animate
-$('html, body').animate({
-    scrollTop: $(hash).offset().top-50
-  }, 300, function(){
-
-    // when done, add hash to url
-    // (default click behaviour)
-    //window.location.hash = hash;
+  e.preventDefault();
+  // store hash
+  var hash = this.hash;
+  // animate
+  $('html, body').animate({
+      scrollTop: $(hash).offset().top-50
+    }, 300, function(){
   });
 });
 
@@ -130,3 +119,37 @@ d3.xml("img/dosage/amphetamines.svg", "image/svg+xml", function(xml) {
   })
 
 });
+
+/* scroll statistics*/
+var myInterval = false;
+d3.selectAll('.leftscrollhelper').on('mouseenter', function(e){
+  var div = $(this);
+  var toscroll = div.next()
+  myInterval = setInterval(function(){
+    var leftPos = toscroll.scrollLeft();
+    var pixel = leftPos - 20;
+    toscroll.animate({scrollLeft: pixel},99);
+  }, 100);
+})
+
+d3.selectAll('.leftscrollhelper').on('mouseout', function(){
+  $(this).stop();
+  clearInterval(myInterval);
+  myInterval = false;
+})
+
+d3.selectAll('.rigthscrollhelper').on('mouseenter', function(e){
+  var div = $(this);
+  var toscroll = div.prev()
+  myInterval = setInterval(function(){
+    var leftPos = toscroll.scrollLeft();
+    var pixel = leftPos + 20;
+    toscroll.animate({scrollLeft: pixel},99);
+  }, 100);
+})
+
+d3.selectAll('.rigthscrollhelper').on('mouseout', function(){
+  $(this).stop();
+  clearInterval(myInterval);
+  myInterval = false;
+})

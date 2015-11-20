@@ -601,6 +601,7 @@ box-shadow: none;
   height: 185px;
   overflow: hidden;
   border-bottom: 1px solid #F6F6F6;
+  position: relative;
 }
 
 
@@ -620,6 +621,23 @@ box-shadow: none;
   margin-left: 10px;
 }
 
+.leftscrollhelper{
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 185px;
+  top:0;
+  left: 0;
+}
+
+.rigthscrollhelper{
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 185px;
+  top:0;
+  right: 0;
+}
 .selectedNodes{
   margin-top: 30px;
   opacity: 1;
@@ -676,41 +694,6 @@ box-shadow: none;
   /*animation: noise-anim-top 20s infinite linear alternate-reverse;*/
 }
 
-@keyframes noise-anim-top {
-  0% {
-    color: rgba(255, 255, 255, 1);
-  }
-  50% {
-    color: rgba(255, 255, 255, 1);
-  }
-  51% {
-    color: rgba(255, 255, 255, 0.6);
-  }
-  52% {
-    color: rgba(255, 255, 255, 1);
-  }
-  100% {
-    color: rgba(255, 255, 255, 1);
-  }
-}
-
-@keyframes noise-anim {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  51% {
-    opacity: 1;
-  }
-  52% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .glitch::after {
   content: attr(data-text);
   position: absolute;
@@ -724,23 +707,6 @@ box-shadow: none;
   /*animation: noise-anim 20s infinite linear alternate-reverse;*/
 }
 
-@keyframes noise-anim-2 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  51% {
-    opacity: 1;
-  }
-  52% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 .glitch::before {
   content: attr(data-text);
   position: absolute;
