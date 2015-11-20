@@ -153,3 +153,12 @@ d3.selectAll('.rigthscrollhelper').on('mouseout', function(){
   clearInterval(myInterval);
   myInterval = false;
 })
+
+/*favicon animation*/
+
+facivon.animate([
+  'img/favicon/fav01.png',
+  'img/favicon/fav02.png',
+  'img/favicon/fav03.png',
+  'img/favicon/fav04.png'
+],100)
