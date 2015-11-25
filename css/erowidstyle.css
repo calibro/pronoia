@@ -16,7 +16,7 @@ color: #3CEEED;
 }
 
 .hallucinogenics{
-  color:#9578B3;
+  color:#a478d6;
 }
 
 
@@ -231,6 +231,7 @@ line-height: 25px;
 font-weight: 900;
 text-transform: uppercase;
   letter-spacing: 3px;
+  transition: background-color 0.3s ease;
 
 }
 
@@ -271,7 +272,10 @@ font-family: 'Crimson Text', serif;
 }
 
 
-
+#generalstat{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .description{
 
@@ -453,10 +457,10 @@ box-shadow: none;
 .btn-default.hallucinogenics:focus,
 .btn-default.hallucinogenics.active{
 background-color:white;
-border-bottom: 2px solid #9578B3;
+border-bottom: 2px solid #a478d6;
 padding-bottom: 100%; /* fallback if needed */
 padding-bottom: calc(6px - 2px);
-color: #9578B3;
+color: #a478d6;
 outline: none;
 box-shadow: none;
 }
@@ -477,8 +481,38 @@ box-shadow: none;
 
 #controller .btn-group-vertical>.btn:first-child:not(:last-child),
 #controller, .btn-group-vertical>.btn:last-child:not(:first-child){
-  border-radius: 0px;
+
 }
+
+#zoomIn {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #373737;
+  padding-top: 13px;
+}
+
+#zoomOut {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #373737;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+
+#zoomReset {
+
+  font-size: 13px;
+  line-height: 20px;
+  color: #373737;
+
+}
+
+
 
 #controller .btn-default{
   border: 1px solid #F6F6F6;
@@ -602,6 +636,7 @@ box-shadow: none;
   overflow: hidden;
   border-bottom: 1px solid #F6F6F6;
   position: relative;
+
 }
 
 
@@ -637,7 +672,16 @@ box-shadow: none;
   height: 185px;
   top:0;
   right: 0;
+   /*background-color: #FFF4F4;
+   /*transition: opacity 0.2s;*/
 }
+
+/*.rigthscrollhelper:hover{
+  opacity: 0;
+
+}*/
+
+
 .selectedNodes{
   margin-top: 30px;
   opacity: 1;
