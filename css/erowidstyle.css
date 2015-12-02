@@ -164,7 +164,6 @@ padding-bottom: 2px;
 
 
 
-/*non funziona bene l'animazione il bordo si crea dall alto*/
 #intro a:hover,
 #intro a:active,
 #intro a:focus
@@ -230,8 +229,8 @@ letter-spacing: 0.5px;
 line-height: 25px;
 font-weight: 900;
 text-transform: uppercase;
-  letter-spacing: 3px;
-  transition: background-color 0.3s ease;
+letter-spacing: 3px;
+transition: background-color 0.3s ease;
 
 }
 
@@ -254,12 +253,12 @@ ul.nav a:focus {
 #section4,
 #section6,
 #section7,
-#section8,
 #section9,
 #section10,
 #section11,
 #section12,
-#section13{
+#section13,
+#section14{
 	padding-top: 50px;
 	padding-bottom: 50px;
 font-family: 'Crimson Text', serif;
@@ -272,9 +271,19 @@ font-family: 'Crimson Text', serif;
 }
 
 
+#section8{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#section8right{
+  border-right: 1px solid #F6F6F6;
+  min-height: 630px;
+  padding-right: 0;
+}
+
 #generalstat{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .description{
@@ -468,9 +477,10 @@ box-shadow: none;
 
 /* network */
 #networkContainer{
-  height: 500px;
+  height: 630px;
   width: 100%;
   position: relative;
+
 }
 #controller{
   position: absolute;
@@ -482,6 +492,11 @@ box-shadow: none;
 #controller .btn-group-vertical>.btn:first-child:not(:last-child),
 #controller, .btn-group-vertical>.btn:last-child:not(:first-child){
 
+}
+
+
+#btn-zoom-wrapper{
+  padding-top: 30px;
 }
 
 #zoomIn {
@@ -528,13 +543,19 @@ box-shadow: none;
 #controller .btn-default:hover{
   border: 1px solid #F6F6F6;
   background-color: #FFF4F4;
+  transition: background-color 0.3s ease;
 }
 
 /* typeahead */
 
+#searchwrapper{
+  padding-top: 30px;
+}
+
 .twitter-typeahead{
   width: 80%;
 }
+
 .typeahead,
 .tt-query,
 .tt-hint {
@@ -598,7 +619,7 @@ box-shadow: none;
 }
 
 .networkSide{
-  height: 323px;
+  height: 433px;
   overflow-y: scroll;
   margin-left: -8px;
 }
@@ -628,7 +649,7 @@ box-shadow: none;
 
 #section5{
   padding: 0px;
-  box-shadow: inset 20px 0 30px -20px rgba(0, 0, 0,0.7), inset -20px 0 30px -20px rgba(0, 0, 0,0.7);
+  /*box-shadow: inset 20px 0 30px -20px rgba(0, 0, 0,0.7), inset -20px 0 30px -20px rgba(0, 0, 0,0.7);*/
 }
 
 .slotwrapper{
@@ -659,28 +680,54 @@ box-shadow: none;
 .leftscrollhelper{
   position: absolute;
   z-index: 1;
-  width: 50px;
+  width: 40px;
   height: 185px;
   top:0;
   left: 0;
+  background-color: white;
+  border-right: 1px solid #F6F6F6;
+  color:#373737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  transition: all 0.5s ease-in-out;
 }
+
+
+.leftscrollhelper:hover{
+ width: 0px;
+ font-size: 0px;
+}
+
+
+
 
 .rigthscrollhelper{
   position: absolute;
   z-index: 1;
-  width: 50px;
+  width: 40px;
   height: 185px;
   top:0;
   right: 0;
-   /*background-color: #FFF4F4;
-   /*transition: opacity 0.2s;*/
+  background-color: white;
+  border-left: 1px solid #F6F6F6;
+  color:#373737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  transition: all 0.5s ease-in-out;
+
 }
 
-/*.rigthscrollhelper:hover{
-  opacity: 0;
+.rigthscrollhelper:hover{
 
-}*/
-
+ font-size: 0px;
+     -ms-transform: translate(50px,0px); /* IE 9 */
+    -webkit-transform: translate(50px,0px); /* Safari */
+    transform: translate(50px,0px);
+}
 
 .selectedNodes{
   margin-top: 30px;
@@ -696,9 +743,12 @@ box-shadow: none;
 .selectedNodes p{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
-  font-size: 25px;
+  font-size: 20px;
   color: #373737;
   letter-spacing: 4px;
+
+
+
 }
 
 .networkSide .badge{
@@ -782,5 +832,33 @@ box-shadow: none;
 .glitchDynamic_2::before{
   opacity: 1;
   clip: rect(70px, 9999px, 85px, 0px);
+}
+
+/*GLOSSARY*/
+#glossary div{
+  padding-right: 30px;
+}
+
+#section14 h1 {
+font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 0;
+    padding-right: 50px;
+    letter-spacing: 4px;
+}
+
+#section14 h2 {
+font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+margin-top: 5px;
+letter-spacing: 1px;
+}
+#section14 p{
+      font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: #373737;
+    line-height: 29px;
 }
 /*FOOTER*/

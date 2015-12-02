@@ -162,7 +162,7 @@
     <div class="col-xs-12 col-md-8"><p>The visualization presents some general statistics about users reporting experiences. More than 9,000 users have reported their body weight and the average weight is 70 kg. Only 969 users have declared their age and the average age is 23. 9,683 reports out of 11,187 are from users who have declared their sex. A gender issue emerges from the analysis as there are 8,348 reports from male users <i class="fa fa-mars"></i> and only 1,335 from female users <i class="fa fa-venus"></i>. Furthermore, looking at age distribution we can see that all substances are reported by younger users (below 25 years old), but with a deeper observation two groups can be identified. Amphetamines, AMT and H.B. Woodrose are are exclusively reported by users below 35 years old while substances like Cocaine, DMX and MDMA have a wider age distribution. </p>
 
 <div id="generalstat">
-      <object type="image/svg+xml" data="img/small-overall.svg" class="logo">
+      <object type="image/svg+xml" data="img/statistics/small-overall.svg" class="logo">
  
 </object>
 </div>
@@ -184,18 +184,19 @@
 <div class="container-fluid viz" id="section5">
 
   <div class="slotwrapper" id="stimulants">
-    <div class="leftscrollhelper"></div>
+    
+    <div class="leftscrollhelper"><i class="fa fa-arrow-circle-left"></i></div>
     <div class="slot">
       <img class="slotImg" width="1114px" src="img/statistics/ampetamines.png">
       <img class="slotImg" width="1114px" src="img/statistics/amt.png">
       <img class="slotImg" width="1114px" src="img/statistics/cocaine.png">
       <img class="slotImg" width="1114px" src="img/statistics/nutmeg.png">
     </div>
-    <div class="rigthscrollhelper"></div>
+    <div class="rigthscrollhelper"><i class="fa fa-arrow-circle-right"></i></div>
   </div>
 
   <div class="slotwrapper" id="sedatives">
-    <div class="leftscrollhelper"></div>
+    <div class="leftscrollhelper"><i class="fa fa-arrow-circle-left"></i></div>
     <div class="slot">
       <img class="slotImg" width="1114px" src="img/statistics/dxm.png">
       <img class="slotImg" width="1114px" src="img/statistics/ghb.png">
@@ -203,21 +204,21 @@
       <img class="slotImg" width="1114px" src="img/statistics/ketamine.png">
       <img class="slotImg" width="1114px" src="img/statistics/kratom.png">
     </div>
-    <div class="rigthscrollhelper"></div>
+    <div class="rigthscrollhelper"><i class="fa fa-arrow-circle-right"></i></div>
   </div>
 
   <div class="slotwrapper" id="supplements">
-    <div class="leftscrollhelper"></div>
+    <div class="leftscrollhelper"><i class="fa fa-arrow-circle-left"></i></div>
     <div class="slot">
       <img class="slotImg" width="1114px" src="img/statistics/melatonin.png">
       <img class="slotImg" width="1114px" src="img/statistics/modafinil.png">
       <img class="slotImg" width="1114px" src="img/statistics/piracetam.png">
     </div>
-    <div class="rigthscrollhelper"></div>
+    <div class="rigthscrollhelper"><i class="fa fa-arrow-circle-right"></i></div>
   </div>
 
   <div class="slotwrapper" id="hallucinogenics">
-    <div class="leftscrollhelper"></div>
+    <div class="leftscrollhelper"><i class="fa fa-arrow-circle-left"></i></div>
     <div class="slot">
       <img class="slotImg" width="1114px" src="img/statistics/ayahuasca.png">
       <img class="slotImg" width="1114px" src="img/statistics/dmt.png">
@@ -231,7 +232,7 @@
       <img class="slotImg" width="1114px" src="img/statistics/salvia.png">
       <img class="slotImg" width="1114px" src="img/statistics/syrianrue.png">
     </div>
-    <div class="rigthscrollhelper"></div>
+    <div class="rigthscrollhelper"><i class="fa fa-arrow-circle-right"></i></div>
   </div>
 
 </div>
@@ -241,10 +242,10 @@
 <div class="container description" id="section6">
   <div class="row" >
     <div class="col-xs-6 col-md-4">
-      <h1>Most used bigrams per substance</h1>
+      <h1>Most used word pairs per substance</h1>
       <h4>Language</h4>
     </div>
-    <div class="col-xs-12 col-md-8"><p>The text of each report has been mined in order to extract relevant language connected to a particualar substance. The visualization shows the top 30 <a href="https://en.wikipedia.org/wiki/Bigram"  target="_blank">bigrams</a> for each substance and the number of time in which they occur in a subset of reports. Each substance has its own vocabulary. Actions, tools, effects on body, dosage, suggestions of consumption, persons and groups emerge in different amounts from different substances.  </p>
+    <div class="col-xs-12 col-md-8"><p>The text of each report has been mined in order to extract relevant language connected to a particualar substance. The visualization shows the top 30 word pairs (<a href="https://en.wikipedia.org/wiki/Bigram"  target="_blank">bigrams</a>) for each substance and the number of time in which they occur in a subset of reports. Each substance has its own vocabulary. Actions, tools, effects on body, dosage, suggestions of consumption, persons and groups emerge in different amounts from different substances.  </p>
 
       <div class="btn-group btn-group-substances" >
 
@@ -304,9 +305,9 @@
 <div class="container-fluid viz" id="section8">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3" id="section8right">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" id="searchwrapper">
             <input id="searchsub" class="typeahead" type="text" placeholder="Search substance">
           </div>
         </div>
@@ -320,11 +321,11 @@
           <div class="networkSide"></div>
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div id="networkContainer">
           <div id="controller">
 
-            <div class="btn-group-vertical">
+            <div class="btn-group-vertical" id="btn-zoom-wrapper">
               <button class="btn btn-default" id="zoomIn">
                <i class="fa fa-plus"></i>
               </button>
@@ -403,7 +404,7 @@
   <div class="container">
     <div class="row" >
       <div class="col-xs-6 col-md-4">
-        <h1>Distribution of users according to dosage</h1>
+        <h1>Distribution of dosage according to the users</h1>
         <h4>Dosage</h4>
       </div>
       <div class="col-xs-12 col-md-8"><p>For this analysis the reported amount of substance by each user is considered. Every year, all users are divided in 4 equal groups, according to their reported dosage. Users reporting a very unusual dosage are not grouped and represented as outliers. The visualization shows if and to which extent the average dosage for a substance changes over time.</p>
@@ -437,6 +438,78 @@
 </div> <!-- /container fluid-->
 
 
+<div class="container-fluid description" id="section13">
+  <div class="container">
+    <div class="row" >
+      <div class="col-xs-6 col-md-4">
+        <h1>Description of analyzed substances</h1>
+        <h4>Glossary</h4>
+      </div>
+      <div class="col-xs-12 col-md-8"><p>In this section you can find a short description for each substance mentioned in the previous analysis. Text is based on the informations available on <a href="https://www.erowid.org/"  target="_blank">Erowid.org</a>.</p>
+        
+      </div>
+    </div>
+  </div>
+</div> <!-- /container fluid-->
+
+<div class="container-fluid viz" id="section14">
+  <div class="container">
+    <div class="row">
+
+ <div class="col-md-12" id="glossary">
+      <div class="col-xs-6 col-md-3">
+        <h1 class="supplements">Piracetam </h1>
+        <h2>2-oxo-1-pyrrolidineacetamide</h2>
+        <p>The first and still very popular nootropic or smart drug that is said to induce cognitive enhancement.</p>
+      </div>
+       <div class="col-xs-6 col-md-3">
+          <h1 class="supplements">Modafinil </h1>
+        <h2>benzhydrylsulphinylacetamide</h2>
+        <p>Originally a medication to treat narcolepsy, Modafinil is also used as a cognitive enhancement drug that is said to increase focus and wakefulness.</p>
+      </div>
+   
+       <div class="col-xs-6 col-md-3">
+          <h1 class="supplements">Melatonin</h1>
+        <h2>N-[2-(5-methoxy-1h-indol-3-yl)ethyl]acetamide</h2>
+        <p>Melatonin is a hormone produced by the pineal gland and involved in the regulation of sleep. It is used as a sleep aid and to help reset the body's clock and help reduce jet-lag.</p>
+      </div>
+    
+       <div class="col-xs-6 col-md-3">
+          <h1 class="hallucinogenics">Ayahuasca </h1>
+        <h2>-</h2>
+        <p>A powerfully psychedelic, traditionally used as a spiritual medicine in the indigenous Amazon. It contains a mixture of MAOI and DMT, inducing intense visions and a form of purging which are the desired effects.</p>
+      </div>
+  </div>
+
+<div class="col-md-12">
+      <div class="col-xs-6 col-md-3">
+        <h1 class="hallucinogenics">Morning Glory</h1>
+        <h2>Ipomoea violacea</h2>
+        <p>A psychedelic plant that contains LSA, a naturally occurring relative of LSD. It has a long history of traditional use as a medicine amongst indigenous tribes in Mexico.</p>
+      </div>
+       <div class="col-xs-6 col-md-3">
+          <h1>Piracetam </h1>
+        <h2>2-oxo-1-pyrrolidineacetamide</h2>
+        <p>The first and still very popular nootropic or smart drug that is said to induce cognitive enhancement.</p>
+      </div>
+   
+       <div class="col-xs-6 col-md-3">
+          <h1>Piracetam </h1>
+        <h2>2-oxo-1-pyrrolidineacetamide</h2>
+        <p>The first and still very popular nootropic or smart drug that is said to induce cognitive enhancement.</p>
+      </div>
+    
+       <div class="col-xs-6 col-md-3">
+          <h1>Piracetam </h1>
+        <h2>2-oxo-1-pyrrolidineacetamide</h2>
+        <p>The first and still very popular nootropic or smart drug that is said to induce cognitive enhancement.</p>
+      </div>
+  </div>
+
+
+    </div>
+  </div>
+</div> <!-- /container fluid-->
 
 <!--  <div class="container-fluid">
     <p class="text-muted">Place sticky footer content here.</p>

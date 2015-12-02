@@ -156,9 +156,9 @@ d3.selectAll('.rigthscrollhelper').on('mouseout', function(){
 
 /*favicon animation*/
 
- favicon.animate([
-  'img/favicon/fav01.png',
-  'img/favicon/fav02.png',
-  'img/favicon/fav03.png',
-  'img/favicon/fav04.png'
- ],100)
+favicon.animate([
+'img/favicon/fav01.png',
+'img/favicon/fav02.png',
+'img/favicon/fav03.png',
+'img/favicon/fav04.png'
+],100)

@@ -1,69 +1,136 @@
-<svg version="1.0"
-	 id="Layer_1" a3:scriptImplementation="Adobe" xmlns:text="http://xmlns.graougraou.com/svg/text/" xmlns:a3="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1140px" height="196px"
-	 viewBox="0 0 1140 196" enable-background="new 0 0 1140 196" xml:space="preserve">
-
-	<text transform="matrix(1 0 0 1 0 50.4961)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="64.8396">heart rate</text>
-<text transform="matrix(1 0 0 1 243.9717 28.9043)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="37.8015">65 </text>
-<text transform="matrix(1 0 0 1 311.5264 51.0439)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="39.8857">dry mouth</text>
-<text transform="matrix(1 0 0 1 476.3281 37.4629)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="23.2534">42</text>
-<text transform="matrix(1 0 0 1 530.5137 50.3105)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="29.4286">extended release</text>
-<text transform="matrix(1 0 0 1 718.4658 40.2109)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="17.1569">31 </text>
-<text transform="matrix(1 0 0 1 761.8672 50.8213)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="22.4571">wide awake</text>
-<text transform="matrix(1 0 0 1 864.1738 43.0439)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="13.0925">25 </text>
-<text transform="matrix(1 0 0 1 902.8213 50.5762)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18.9714">blood pressure</text>
-<text transform="matrix(1 0 0 1 1011.4238 43.959)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="11.0603">20 </text>
-<text transform="matrix(1 0 0 1 1047.6836 50.0767)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18.9714">stay awake</text>
-<text transform="matrix(1 0 0 1 1127.0713 43.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="11.0603">20 </text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="Layer_1" xmlns:a3="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:text="http://xmlns.graougraou.com/svg/text/" a3:scriptImplementation="Adobe"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1140px" height="308.5px"
+	 viewBox="0 0 1140 308.5" enable-background="new 0 0 1140 308.5" xml:space="preserve">
 <g>
-	<text transform="matrix(1 0 0 1 0 90.585)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18.9714">heart attack</text>
-	<text transform="matrix(1 0 0 1 86.7236 84.2686)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="11.0603">19</text>
-	<text transform="matrix(1 0 0 1 97.1792 90.585)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18.9714"> </text>
+	<text transform="matrix(1 0 0 1 0 70.0776)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="97.2594">heart rate</text>
+	<text transform="matrix(1 0 0 1 365.9575 37.6899)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="56.7023">65 </text>
 </g>
-<text transform="matrix(1 0 0 1 136.3716 90.585)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18.9714">pay attention</text>
-<text transform="matrix(1 0 0 1 234.1372 84.2686)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="11.0603">19 </text>
-<text transform="matrix(1 0 0 1 282.0151 90.3418)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15.4857">amphetamine salts</text>
-<text transform="matrix(1 0 0 1 394.0439 85.1846)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="9.0282">16 </text>
-<text transform="matrix(1 0 0 1 439.5474 90.3418)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15.4857">higher doses</text>
-<text transform="matrix(1 0 0 1 515.1152 85.1846)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="9.0282">16 </text>
-<text transform="matrix(1 0 0 1 560.6187 90.3418)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="15.4857">heart beat</text>
-<text transform="matrix(1 0 0 1 620.6865 85.1846)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="9.0282">15 </text>
-<text transform="matrix(1 0 0 1 666.1982 90.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">computer screen</text>
-<text transform="matrix(1 0 0 1 744.0449 86.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">14 </text>
-<text transform="matrix(1 0 0 1 787.1592 90.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">amphetamine psychosis</text>
-<text transform="matrix(1 0 0 1 897.9941 86.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">14 </text>
-<text transform="matrix(1 0 0 1 941.1318 90.1621)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">video games</text>
-<text transform="matrix(1 0 0 1 998.7168 85.3672)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="8.3952">14 </text>
-<text transform="matrix(1 0 0 1 1043.4648 90.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">prescribed adderall</text>
-<text transform="matrix(1 0 0 1 1131.8359 86.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">14 </text>
-<text transform="matrix(1 0 0 1 0 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">daily basis</text>
-<text transform="matrix(1 0 0 1 47.25 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">13 </text>
-<text transform="matrix(1 0 0 1 141.1841 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">adderall makes</text>
-<text transform="matrix(1 0 0 1 210.1953 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">13 </text>
-<text transform="matrix(1 0 0 1 304.1299 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">spring break</text>
-<text transform="matrix(1 0 0 1 362.6416 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">13 </text>
-<text transform="matrix(1 0 0 1 456.5757 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">english class</text>
-<text transform="matrix(1 0 0 1 513.7866 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">13 </text>
-<text transform="matrix(1 0 0 1 607.7197 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">baking soda</text>
-<text transform="matrix(1 0 0 1 663.0557 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">12 </text>
-<text transform="matrix(1 0 0 1 756.9834 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">gas station</text>
-<text transform="matrix(1 0 0 1 806.4014 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">12 </text>
-<text transform="matrix(1 0 0 1 900.3291 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">period class</text>
-<text transform="matrix(1 0 0 1 954.5039 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">12 </text>
-<text transform="matrix(1 0 0 1 1048.4316 129.0957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">tingling sensation</text>
-<text transform="matrix(1 0 0 1 1131.8223 125.1006)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">12 </text>
-<text transform="matrix(1 0 0 1 864.1523 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">adderall prescription</text>
-<text transform="matrix(1 0 0 1 960.9727 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 1067.6738 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">jaw clenching</text>
-<text transform="matrix(1 0 0 1 1131.8223 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 0 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">30mg adderall</text>
-<text transform="matrix(1 0 0 1 65.9062 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 172.3149 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">mountain dew</text>
-<text transform="matrix(1 0 0 1 240.3892 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 346.7974 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">orange juice</text>
-<text transform="matrix(1 0 0 1 403.6094 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 510.0186 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">paying attention</text>
-<text transform="matrix(1 0 0 1 586.9287 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
-<text transform="matrix(1 0 0 1 693.3369 167.5957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12">cotton mouth</text>
-<text transform="matrix(1 0 0 1 757.7432 163.6016)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="6.996">11 </text>
+<g>
+	<text transform="matrix(1 0 0 1 490.0757 67.5186)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="59.8285">dry mouth</text>
+	<text transform="matrix(1 0 0 1 737.2773 47.1475)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="34.8801">42</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 827.9629 65.4551)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="44.1429">extended release</text>
+	<text transform="matrix(1 0 0 1 1109.8916 50.3057)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="25.7353">31 </text>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 0 130.0781)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="33.6856">wide awake</text>
+		<text transform="matrix(1 0 0 1 153.459 118.4121)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="19.6388">25 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 204.584 129.3906)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="28.4571">blood pressure</text>
+		<text transform="matrix(1 0 0 1 367.4883 119.4648)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="16.5905">20 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 415.0312 128.8906)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="28.4571">stay awake</text>
+		<text transform="matrix(1 0 0 1 534.1133 118.9648)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="16.5905">20 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 581.6553 128.4395)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="28.4571">heart attack</text>
+		<text transform="matrix(1 0 0 1 711.7402 118.9648)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="16.5905">19</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 761.9375 128.4395)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="28.4571">pay attention</text>
+		<text transform="matrix(1 0 0 1 908.5859 118.9648)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="16.5905">19 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 956.127 127.752)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="23.2285">amphetamine salts</text>
+		<text transform="matrix(1 0 0 1 1124.1699 120.0166)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="13.5423">16 </text>
+	</g>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 0 193.6387)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="23.2285">higher doses</text>
+		<text transform="matrix(1 0 0 1 113.3516 185.9033)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="13.5423">16 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 199.4712 193.6387)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="23.2285">heart beat</text>
+		<text transform="matrix(1 0 0 1 289.5732 185.9033)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="13.5423">15 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 375.7061 192.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">computer screen</text>
+		<text transform="matrix(1 0 0 1 492.4756 186.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">14 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 575.0117 192.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">amphetamine psychosis</text>
+		<text transform="matrix(1 0 0 1 741.2637 186.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">14 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 823.835 193.4941)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">video games</text>
+		<text transform="matrix(1 0 0 1 910.2129 186.3008)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="12.5928">14 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 995.1973 195.9453)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">prescribed adderall</text>
+		<text transform="matrix(1 0 0 1 1127.7539 189.9531)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">14 </text>
+	</g>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 0 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">daily basis</text>
+		<text transform="matrix(1 0 0 1 70.875 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">13 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 130.3481 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">adderall makes</text>
+		<text transform="matrix(1 0 0 1 233.8652 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">13 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 293.3379 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">spring break</text>
+		<text transform="matrix(1 0 0 1 381.1055 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">13 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 440.5786 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">english class</text>
+		<text transform="matrix(1 0 0 1 526.395 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">13 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 585.8682 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">baking soda</text>
+		<text transform="matrix(1 0 0 1 668.8721 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">12 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 728.334 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">gas station</text>
+		<text transform="matrix(1 0 0 1 802.4609 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">12 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 861.9229 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">period class</text>
+		<text transform="matrix(1 0 0 1 943.1855 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">12 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1002.6475 247.9492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">tingling sensation</text>
+		<text transform="matrix(1 0 0 1 1127.7334 241.957)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">12 </text>
+	</g>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 821.2285 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">adderall prescription</text>
+		<text transform="matrix(1 0 0 1 966.459 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1031.5107 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">jaw clenching</text>
+		<text transform="matrix(1 0 0 1 1127.7334 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 0 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">30mg adderall</text>
+		<text transform="matrix(1 0 0 1 98.8594 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 163.4727 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">mountain dew</text>
+		<text transform="matrix(1 0 0 1 265.584 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 330.1982 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">orange juice</text>
+		<text transform="matrix(1 0 0 1 415.416 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 480.0288 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">paying attention</text>
+		<text transform="matrix(1 0 0 1 595.3945 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 660.0068 300.4492)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="18">cotton mouth</text>
+		<text transform="matrix(1 0 0 1 756.6152 294.459)" fill="#FC1325" font-family="'CrimsonText-Roman'" font-size="10.494">11 </text>
+	</g>
+</g>
 </svg>
