@@ -824,11 +824,6 @@ box-shadow: none;
   clip: rect(70px, 9999px, 85px, 0px);
 }
 
-/*GLOSSARY*/
-#glossary div{
-  padding-right: 30px;
-}
-
 #section14 h1 {
 font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
@@ -840,15 +835,26 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 #section14 h2 {
-font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
-margin-top: 5px;
-letter-spacing: 1px;
+font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: #373737;
+    letter-spacing: 3px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-right: 50px;
+    margin-top: 0px;
+
+
 }
 #section14 p{
-      font-family: 'Crimson Text', serif;
-    font-size: 20px;
-    color: #373737;
-    line-height: 29px;
+font-family: 'Crimson Text', serif;
+font-size: 20px;
+color: #373737;
+line-height: 29px;
+
 }
+
+
+
 /*FOOTER*/
