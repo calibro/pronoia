@@ -124,6 +124,8 @@ d3.xml("img/dosage/amphetamines.svg", "image/svg+xml", function(xml) {
 var myInterval = false;
 d3.selectAll('.leftscrollhelper').on('mouseenter', function(e){
   var div = $(this);
+  var arrow = div.children()
+  arrow.addClass('scrollhelperarrowleft');
   var toscroll = div.next()
   myInterval = setInterval(function(){
     var leftPos = toscroll.scrollLeft();
@@ -134,12 +136,17 @@ d3.selectAll('.leftscrollhelper').on('mouseenter', function(e){
 
 d3.selectAll('.leftscrollhelper').on('mouseout', function(){
   $(this).stop();
+  var arrow = $(this).children()
+  arrow.removeClass('scrollhelperarrowleft');
   clearInterval(myInterval);
   myInterval = false;
 })
 
 d3.selectAll('.rigthscrollhelper').on('mouseenter', function(e){
   var div = $(this);
+  var arrow = div.children()
+  arrow.addClass('scrollhelperarrowright');
+
   var toscroll = div.prev()
   myInterval = setInterval(function(){
     var leftPos = toscroll.scrollLeft();
@@ -150,6 +157,9 @@ d3.selectAll('.rigthscrollhelper').on('mouseenter', function(e){
 
 d3.selectAll('.rigthscrollhelper').on('mouseout', function(){
   $(this).stop();
+  var arrow = $(this).children()
+  arrow.removeClass('scrollhelperarrowright');
+
   clearInterval(myInterval);
   myInterval = false;
 })
