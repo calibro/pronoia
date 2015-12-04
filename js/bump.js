@@ -190,8 +190,6 @@ var makeBump = function(substance,type){
                   }
                 })
 
-
-
               d3.select('#bumpList').selectAll('.bumpList')
                 .transition()
                 .style('opacity', function(e){
@@ -268,6 +266,10 @@ var makeBump = function(substance,type){
                         }
                       })
 
+                      $('#bumpList').stop();
+                      $('#bumpList').animate({
+                           scrollTop: $("#bumpList ." +d[0].group).offset().top- $("#bumpList").offset().top + $("#bumpList").scrollTop()
+                       }, 500);
 
                     d3.select('#bumpList').selectAll('.bumpList')
                       .transition()
