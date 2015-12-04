@@ -271,10 +271,15 @@ font-family: 'Crimson Text', serif;
 }
 
 
-#section8{
+#section8,
+#section14{
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+
+
+
 #section8right{
   border-right: 1px solid #F6F6F6;
   min-height: 630px;
@@ -832,6 +837,7 @@ font-family: 'Source Sans Pro', sans-serif;
     margin-top: 0;
     padding-right: 50px;
     letter-spacing: 4px;
+
 }
 
 #section14 h2 {
@@ -855,6 +861,57 @@ line-height: 29px;
 
 }
 
+
+.glossary .row:first-child{
+  border-top: none;
+}
+
+.glossary .row{
+        border-top: 1px solid #F6F6F6;
+}
+
+.glossary .row:last-child
+{
+          border-bottom: 1px solid #F6F6F6;
+
+}
+.glossary .col-md-4{
+  padding:30px 30px 20px 30px;
+
+}
+
+.glossary .col-md-4{
+   border-left: 1px solid #F6F6F6;
+}
+
+.glossary .row .col-md-4:last-child{
+   border-right: 1px solid #F6F6F6;
+}
+
+
+@media (min-width: 992px){
+  .glossary .col-md-4{
+
+  min-height: 500px;
+  }
+}
+
+
+@media (max-width: 992px){
+  .glossary .row{
+
+   border: none !important;
+
+  }
+}
+
+@media (max-width: 992px){
+  .glossary .col-xs-12{
+
+   border: none !important;
+
+  }
+}
 
 
 /*FOOTER*/

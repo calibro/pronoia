@@ -284,7 +284,7 @@
 				<text transform="matrix(1 0 0 1 355.1648 218.41)" class="st6 st3">2012</text>
 			</g>
 			<g transform="translate(819.5,0)">
-				<text transform="matrix(1 0 0 1 355.1648 218.41)" class="st6 st3">2013</text>
+				<text transform="matrix(1 0 0 1 354.7985 218.41)" class="st6 st3">2013</text>
 			</g>
 			<g transform="translate(893.5,0)">
 				<text transform="matrix(1 0 0 1 355.1648 218.41)" class="st6 st3">2014</text>
@@ -455,5 +455,6 @@
 			<polyline class="st19" points="223,602.3 218.3,602.3 218.3,617.8 223,617.8 			"/>
 		</g>
 	</g>
+	<line class="st11" x1="1172.5" y1="558" x2="1195.2" y2="558"/>
 </g>
 </svg>
