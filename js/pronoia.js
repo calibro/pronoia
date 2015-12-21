@@ -101,7 +101,7 @@ d3.xml("img/dosage/amphetamines.svg", "image/svg+xml", function(xml) {
 
   var svgNode = xml.getElementsByTagName("svg")[0];
   var svg = d3.select('#dosage').node().appendChild(svgNode);
-  d3.select('#dosage svg').selectAll('text').attr("font-family", "'Crimson Text', serif")
+
 
   $('#section11 .btn-group-substances button[data="amphetamines"]').button('toggle')
   var buttons = d3.select('#section11').select('.btn-group-substances').selectAll('.btn')
@@ -114,7 +114,7 @@ d3.xml("img/dosage/amphetamines.svg", "image/svg+xml", function(xml) {
       d3.select('#dosage').select('svg').remove()
       var svgNode = xml.getElementsByTagName("svg")[0];
       var svg = d3.select('#dosage').node().appendChild(svgNode);
-      d3.select('#dosage svg').selectAll('text').attr("font-family", "'Crimson Text', serif")
+
     })
   })
 
@@ -166,9 +166,9 @@ d3.selectAll('.rigthscrollhelper').on('mouseout', function(){
 
 /*favicon animation*/
 
-favicon.animate([
-'img/favicon/fav01.png',
-'img/favicon/fav02.png',
-'img/favicon/fav03.png',
-'img/favicon/fav04.png'
-],100)
+// favicon.animate([
+// 'img/favicon/fav01.png',
+// 'img/favicon/fav02.png',
+// 'img/favicon/fav03.png',
+// 'img/favicon/fav04.png'
+// ],100)
