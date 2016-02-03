@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="132 170.9 1140 500" enable-background="new 132 170.9 1140 500" xml:space="preserve">
-<defs>
-  <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Crimson+Text);</style>
-  <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);</style>
-</defs>
-	 
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1140 500" style="enable-background:new 0 0 1140 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F4F4F4;stroke:#FDFDFD;stroke-miterlimit:10;}
+	.st1{font-family:'SourceSansPro-Regular';}
+	.st2{font-size:10px;}
+	.st3{font-family:'SourceSansPro-Bold';}
+	.st4{fill:none;stroke:#30D49D;stroke-miterlimit:10;}
+	.st5{font-family:'SourceSansPro-Light';}
+	.st6{fill:none;stroke:#373737;stroke-linejoin:round;}
+	.st7{opacity:0.7;fill:none;stroke:#30D49D;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st8{opacity:0.5;fill:none;stroke:#30D49D;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st9{fill:none;stroke:#30D49D;stroke-width:10;stroke-miterlimit:10;}
+	.st10{opacity:0.3;fill:none;stroke:#30D49D;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st11{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st12{fill:#373737;}
+	.st13{font-size:12px;}
+	.st14{fill:none;stroke:#373737;stroke-width:0.9854;}
+	.st15{fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;}
+	.st16{opacity:0.8;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st17{opacity:0.5;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st18{opacity:0.3;fill:none;stroke:#373737;stroke-width:10;stroke-miterlimit:10;enable-background:new    ;}
+	.st19{fill:none;stroke:#373737;stroke-width:0.5;stroke-linejoin:round;}
+	.st20{fill:#FFFFFF;}
+</style>
 <g id="livelli">
 </g>
-<g id="Layer_1">
+<g id="Layer_1_1_">
 </g>
 <g id="numeri">
 </g>
@@ -21,487 +39,469 @@
 </g>
 <g id="boxplot">
 </g>
-<g id="median">
-	<g>
-		<rect x="365.2" y="516.1" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="44.8"/>
-		<rect x="365.2" y="470.4" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="45.7"/>
-		<rect x="365.2" y="424.1" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="46.3"/>
-		<rect x="365.2" y="378.1" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="45.9"/>
-		<rect x="365.2" y="332.2" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="45.9"/>
-		<rect x="365.2" y="286.2" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="45.9"/>
-		<rect x="365.2" y="240.3" fill="#F4F4F4" stroke="#FDFDFD" stroke-miterlimit="10" width="900" height="45.9"/>
-		<g transform="translate(0,0)">
-			<g transform="translate(0,318.169014084507)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">1</text>
-			</g>
-			<g transform="translate(0,271.6901408450704)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">2</text>
-			</g>
-			<g transform="translate(0,225.21126760563385)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">3</text>
-			</g>
-			<g transform="translate(0,178.73239436619718)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">4</text>
-			</g>
-			<g transform="translate(0,132.25352112676057)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">5</text>
-			</g>
-			<g transform="translate(0,85.77464788732394)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">6</text>
-			</g>
-			<g transform="translate(0,39.29577464788735)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">7</text>
-			</g>
-		</g>
-		<g transform="translate(0,0)">
-			<g transform="translate(0,318.169014084507)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">1</text>
-				<text transform="matrix(1 0 0 1 349.4857 245.5208)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">0</text>
-			</g>
-			<g transform="translate(0,271.6901408450704)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">2</text>
-			</g>
-			<g transform="translate(0,225.21126760563385)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">3</text>
-			</g>
-			<g transform="translate(0,178.73239436619718)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">4</text>
-			</g>
-			<g transform="translate(0,132.25352112676057)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">5</text>
-			</g>
-			<g transform="translate(0,85.77464788732394)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">6</text>
-			</g>
-			<g transform="translate(0,39.29577464788735)">
-				<text transform="matrix(1 0 0 1 349.4857 204.73)" font-family="'Source Sans Pro', sans-serif" font-weight="400"  font-size="10px">7</text>
-			</g>
-		</g>
-		<g transform="translate(0,440)">
-			<text transform="matrix(1 0 0 1 373.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">4</text>
-			<text transform="matrix(1 0 0 1 441.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">3</text>
-			<text transform="matrix(1 0 0 1 509.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">8</text>
-			<text transform="matrix(1 0 0 1 577.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">7</text>
-			<text transform="matrix(1 0 0 1 645.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">4</text>
-			<text transform="matrix(1 0 0 1 710.931 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">11</text>
-			<text transform="matrix(1 0 0 1 781.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">9</text>
-			<text transform="matrix(1 0 0 1 849.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">9</text>
-			<text transform="matrix(1 0 0 1 917.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">9</text>
-			<text transform="matrix(1 0 0 1 985.8226 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">4</text>
-			<text transform="matrix(1 0 0 1 1053.8225 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">8</text>
-			<text transform="matrix(1 0 0 1 1118.4856 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">20</text>
-			<text transform="matrix(1 0 0 1 1189.8225 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">3</text>
-			<text transform="matrix(1 0 0 1 1257.8225 200.89)" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">3</text>
-		</g>
-		<g transform="translate(0,410)">
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="377.2" cy="200.9" r="3.3"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="445.2" cy="200.9" r="2"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="513.2" cy="200.9" r="7.2"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="581.2" cy="200.9" r="6.3"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="649.2" cy="200.9" r="3.3"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="717.2" cy="200.9" r="9.5"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="785.2" cy="200.9" r="8"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="853.2" cy="200.9" r="8"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="921.2" cy="200.9" r="8"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="989.2" cy="200.9" r="3.3"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="1057.2" cy="200.9" r="7.2"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="1125.2" cy="200.9" r="15"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="1193.2" cy="200.9" r="2"/>
-			<circle fill="none" stroke="#30D49D" stroke-miterlimit="10" cx="1261.2" cy="200.9" r="2"/>
-		</g>
-		<g transform="translate(0,370)">
-			<g transform="translate(8.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2001</text>
-			</g>
-			<g transform="translate(76.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2002</text>
-			</g>
-			<g transform="translate(144.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2003</text>
-			</g>
-			<g transform="translate(212.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2004</text>
-			</g>
-			<g transform="translate(280.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2005</text>
-			</g>
-			<g transform="translate(348.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2006</text>
-			</g>
-			<g transform="translate(416.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2007</text>
-			</g>
-			<g transform="translate(484.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2008</text>
-			</g>
-			<g transform="translate(552.5,0)">
-				<text transform="matrix(1 0 0 1 358.8119 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2009</text>
-			</g>
-			<g transform="translate(620.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2010</text>
-			</g>
-			<g transform="translate(688.5,0)">
-				<text transform="matrix(1 0 0 1 359.2571 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2011</text>
-			</g>
-			<g transform="translate(756.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2012</text>
-			</g>
-			<g transform="translate(824.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2013</text>
-			</g>
-			<g transform="translate(892.5,0)">
-				<text transform="matrix(1 0 0 1 358.8118 218.41)" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2014</text>
-			</g>
-		</g>
+<g>
+	<g id="median">
 		<g>
+			<rect x="233.2" y="370.7" class="st0" width="900" height="44.8"/>
+			<rect x="233.2" y="325" class="st0" width="900" height="45.7"/>
+			<rect x="233.2" y="278.7" class="st0" width="900" height="46.3"/>
+			<rect x="233.2" y="232.7" class="st0" width="900" height="45.9"/>
+			<rect x="233.2" y="186.8" class="st0" width="900" height="45.9"/>
+			<rect x="233.2" y="140.8" class="st0" width="900" height="45.9"/>
+			<rect x="233.2" y="94.9" class="st0" width="900" height="45.9"/>
+			<g transform="translate(0,0)">
+				<g transform="translate(0,318.169014084507)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">1</text>
+				</g>
+				<g transform="translate(0,271.6901408450704)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">2</text>
+				</g>
+				<g transform="translate(0,225.21126760563385)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">3</text>
+				</g>
+				<g transform="translate(0,178.73239436619718)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">4</text>
+				</g>
+				<g transform="translate(0,132.25352112676057)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">5</text>
+				</g>
+				<g transform="translate(0,85.77464788732394)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">6</text>
+				</g>
+				<g transform="translate(0,39.29577464788735)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">7</text>
+				</g>
+			</g>
+			<g transform="translate(0,0)">
+				<g transform="translate(0,318.169014084507)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">1</text>
+					<text transform="matrix(1 0 0 1 217.4857 100.1029)" class="st1 st2">0</text>
+				</g>
+				<g transform="translate(0,271.6901408450704)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">2</text>
+				</g>
+				<g transform="translate(0,225.21126760563385)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">3</text>
+				</g>
+				<g transform="translate(0,178.73239436619718)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">4</text>
+				</g>
+				<g transform="translate(0,132.25352112676057)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">5</text>
+				</g>
+				<g transform="translate(0,85.77464788732394)">
+					<text transform="matrix(1 0 0 1 217.4857 59.312)" class="st1 st2">6</text>
+				</g>
+				<g transform="translate(0,39.29577464788735)">
+					<text transform="matrix(1 0 0 1 217.4857 59.3121)" class="st1 st2">7</text>
+				</g>
+			</g>
+			<g transform="translate(0,440)">
+				<text transform="matrix(1 0 0 1 241.8226 55.4721)" class="st3 st2">4</text>
+				<text transform="matrix(1 0 0 1 309.8226 55.4721)" class="st3 st2">3</text>
+				<text transform="matrix(1 0 0 1 377.8226 55.4721)" class="st3 st2">8</text>
+				<text transform="matrix(1 0 0 1 445.8226 55.4721)" class="st3 st2">7</text>
+				<text transform="matrix(1 0 0 1 513.8226 55.4721)" class="st3 st2">4</text>
+				<text transform="matrix(1 0 0 1 578.931 55.4721)" class="st3 st2">11</text>
+				<text transform="matrix(1 0 0 1 649.8226 55.4721)" class="st3 st2">9</text>
+				<text transform="matrix(1 0 0 1 717.8226 55.4721)" class="st3 st2">9</text>
+				<text transform="matrix(1 0 0 1 785.8226 55.4721)" class="st3 st2">9</text>
+				<text transform="matrix(1 0 0 1 853.8226 55.4721)" class="st3 st2">4</text>
+				<text transform="matrix(1 0 0 1 921.8225 55.4721)" class="st3 st2">8</text>
+				<text transform="matrix(1 0 0 1 986.4856 55.4721)" class="st3 st2">20</text>
+				<text transform="matrix(1 0 0 1 1057.8225 55.4721)" class="st3 st2">3</text>
+				<text transform="matrix(1 0 0 1 1125.8225 55.4721)" class="st3 st2">3</text>
+			</g>
+			<g transform="translate(0,410)">
+				<circle class="st4" cx="245.2" cy="55.5" r="3.3"/>
+				<circle class="st4" cx="313.2" cy="55.5" r="2"/>
+				<circle class="st4" cx="381.2" cy="55.5" r="7.2"/>
+				<circle class="st4" cx="449.2" cy="55.5" r="6.3"/>
+				<circle class="st4" cx="517.2" cy="55.5" r="3.3"/>
+				<circle class="st4" cx="585.2" cy="55.5" r="9.5"/>
+				<circle class="st4" cx="653.2" cy="55.5" r="8"/>
+				<circle class="st4" cx="721.2" cy="55.5" r="8"/>
+				<circle class="st4" cx="789.2" cy="55.5" r="8"/>
+				<circle class="st4" cx="857.2" cy="55.5" r="3.3"/>
+				<circle class="st4" cx="925.2" cy="55.5" r="7.2"/>
+				<circle class="st4" cx="993.2" cy="55.5" r="15"/>
+				<circle class="st4" cx="1061.2" cy="55.5" r="2"/>
+				<circle class="st4" cx="1129.2" cy="55.5" r="2"/>
+			</g>
+			<g transform="translate(0,370)">
+				<g transform="translate(8.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2001</text>
+				</g>
+				<g transform="translate(76.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2002</text>
+				</g>
+				<g transform="translate(144.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2003</text>
+				</g>
+				<g transform="translate(212.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2004</text>
+				</g>
+				<g transform="translate(280.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2005</text>
+				</g>
+				<g transform="translate(348.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2006</text>
+				</g>
+				<g transform="translate(416.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2007</text>
+				</g>
+				<g transform="translate(484.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2008</text>
+				</g>
+				<g transform="translate(552.5,0)">
+					<text transform="matrix(1 0 0 1 226.8119 72.9921)" class="st5 st2">2009</text>
+				</g>
+				<g transform="translate(620.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2010</text>
+				</g>
+				<g transform="translate(688.5,0)">
+					<text transform="matrix(1 0 0 1 227.2571 72.9921)" class="st5 st2">2011</text>
+				</g>
+				<g transform="translate(756.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2012</text>
+				</g>
+				<g transform="translate(824.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2013</text>
+				</g>
+				<g transform="translate(892.5,0)">
+					<text transform="matrix(1 0 0 1 226.8118 72.9921)" class="st5 st2">2014</text>
+				</g>
+			</g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="515.5" y1="382.4" x2="509.9" y2="376.8"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="515.5" y1="376.8" x2="509.9" y2="382.4"/>
+								<g>
+									<line class="st6" x1="383.5" y1="237" x2="377.9" y2="231.4"/>
+									<line class="st6" x1="383.5" y1="231.4" x2="377.9" y2="237"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="583.5" y1="345.2" x2="577.9" y2="339.6"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="583.5" y1="339.6" x2="577.9" y2="345.2"/>
+								<g>
+									<line class="st6" x1="451.5" y1="199.8" x2="445.9" y2="194.2"/>
+									<line class="st6" x1="451.5" y1="194.2" x2="445.9" y2="199.8"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="651.5" y1="308.1" x2="645.9" y2="302.5"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="651.5" y1="302.5" x2="645.9" y2="308.1"/>
+								<g>
+									<line class="st6" x1="519.5" y1="162.7" x2="513.9" y2="157.1"/>
+									<line class="st6" x1="519.5" y1="157.1" x2="513.9" y2="162.7"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="719.5" y1="233.7" x2="713.9" y2="228.1"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="719.5" y1="228.1" x2="713.9" y2="233.7"/>
+								<g>
+									<line class="st6" x1="587.5" y1="88.3" x2="581.9" y2="82.7"/>
+									<line class="st6" x1="587.5" y1="82.7" x2="581.9" y2="88.3"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="787.5" y1="345.2" x2="781.9" y2="339.6"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="787.5" y1="339.6" x2="781.9" y2="345.2"/>
+								<g>
+									<line class="st6" x1="655.5" y1="199.8" x2="649.9" y2="194.2"/>
+									<line class="st6" x1="655.5" y1="194.2" x2="649.9" y2="199.8"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="787.5" y1="335.9" x2="781.9" y2="330.3"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="787.5" y1="330.3" x2="781.9" y2="335.9"/>
+								<g>
+									<line class="st6" x1="655.5" y1="190.5" x2="649.9" y2="184.9"/>
+									<line class="st6" x1="655.5" y1="184.9" x2="649.9" y2="190.5"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="563.7" x2="849.9" y2="558.1"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="558.1" x2="849.9" y2="563.7"/>
+								<g>
+									<line class="st6" x1="723.5" y1="418.3" x2="717.9" y2="412.7"/>
+									<line class="st6" x1="723.5" y1="412.7" x2="717.9" y2="418.3"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="531.2" x2="849.9" y2="525.6"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="525.6" x2="849.9" y2="531.2"/>
+								<g>
+									<line class="st6" x1="723.5" y1="385.8" x2="717.9" y2="380.2"/>
+									<line class="st6" x1="723.5" y1="380.2" x2="717.9" y2="385.8"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="345.2" x2="849.9" y2="339.6"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="855.5" y1="339.6" x2="849.9" y2="345.2"/>
+								<g>
+									<line class="st6" x1="723.5" y1="199.8" x2="717.9" y2="194.2"/>
+									<line class="st6" x1="723.5" y1="194.2" x2="717.9" y2="199.8"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="923.5" y1="359.2" x2="917.9" y2="353.6"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="923.5" y1="353.6" x2="917.9" y2="359.2"/>
+								<g>
+									<line class="st6" x1="791.5" y1="213.8" x2="785.9" y2="208.2"/>
+									<line class="st6" x1="791.5" y1="208.2" x2="785.9" y2="213.8"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
 						<g>
 							<g>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="1059.5" y1="233.7" x2="1053.9" y2="228.1"/>
-								<line fill="none" stroke="#373737" stroke-linejoin="round" x1="1059.5" y1="228.1" x2="1053.9" y2="233.7"/>
+								<g>
+									<line class="st6" x1="927.5" y1="88.3" x2="921.9" y2="82.7"/>
+									<line class="st6" x1="927.5" y1="82.7" x2="921.9" y2="88.3"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
+			<line class="st7" x1="244.7" y1="345.8" x2="244.7" y2="308.6"/>
+			<line class="st8" x1="244.7" y1="383" x2="244.7" y2="345.8"/>
+			<line class="st9" x1="312.7" y1="299.3" x2="312.7" y2="252.8"/>
+			<line class="st7" x1="312.7" y1="345.8" x2="312.7" y2="299.3"/>
+			<line class="st9" x1="380.7" y1="331.8" x2="380.7" y2="290"/>
+			<line class="st7" x1="380.7" y1="364.4" x2="380.7" y2="331.8"/>
+			<line class="st8" x1="380.7" y1="383" x2="380.7" y2="364.4"/>
+			<line class="st7" x1="448.7" y1="327.2" x2="448.7" y2="308.6"/>
+			<line class="st8" x1="448.7" y1="355.1" x2="448.7" y2="327.2"/>
+			<line class="st10" x1="448.7" y1="383" x2="448.7" y2="355.1"/>
+			<line class="st7" x1="516.7" y1="327.2" x2="516.7" y2="285.3"/>
+			<line class="st8" x1="516.7" y1="339.4" x2="516.7" y2="327.2"/>
+			<line class="st10" x1="516.7" y1="376" x2="516.7" y2="339.4"/>
+			<line class="st9" x1="584.7" y1="345.8" x2="584.7" y2="308.6"/>
+			<line class="st7" x1="584.7" y1="364.4" x2="584.7" y2="345.8"/>
+			<line class="st8" x1="584.7" y1="380.6" x2="584.7" y2="364.4"/>
+			<line class="st10" x1="584.7" y1="401.5" x2="584.7" y2="380.6"/>
+			<line class="st7" x1="652.7" y1="308.6" x2="652.7" y2="271.4"/>
+			<line class="st8" x1="652.7" y1="315.6" x2="652.7" y2="308.6"/>
+			<line class="st10" x1="652.7" y1="373.7" x2="652.7" y2="315.6"/>
+			<line class="st8" x1="720.7" y1="280.7" x2="720.7" y2="308.6"/>
+			<line class="st9" x1="788.7" y1="303.9" x2="788.7" y2="290"/>
+			<line class="st8" x1="788.7" y1="349.3" x2="788.7" y2="303.9"/>
+			<line class="st8" x1="788.7" y1="383" x2="788.7" y2="349.3"/>
+			<line class="st9" x1="856.7" y1="292.3" x2="856.7" y2="187.7"/>
+			<line class="st7" x1="856.7" y1="366.1" x2="856.7" y2="292.3"/>
+			<line class="st8" x1="856.7" y1="406.2" x2="856.7" y2="366.1"/>
+			<line class="st9" x1="924.7" y1="312.4" x2="924.7" y2="211"/>
+			<line class="st7" x1="924.7" y1="372.5" x2="924.7" y2="312.4"/>
+			<line class="st8" x1="924.7" y1="383" x2="924.7" y2="372.5"/>
+			<line class="st9" x1="992.7" y1="300.5" x2="992.7" y2="187.7"/>
+			<line class="st7" x1="992.7" y1="336.5" x2="992.7" y2="300.5"/>
+			<line class="st8" x1="992.7" y1="383" x2="992.7" y2="336.5"/>
+			<line class="st8" x1="992.7" y1="396.9" x2="992.7" y2="383"/>
+			<line class="st9" x1="1060.7" y1="252.8" x2="1060.7" y2="234.2"/>
+			<line class="st7" x1="1060.7" y1="271.4" x2="1060.7" y2="252.8"/>
+			<line class="st8" x1="1060.7" y1="334.2" x2="1060.7" y2="271.4"/>
+			<line class="st8" x1="1060.7" y1="396.9" x2="1060.7" y2="334.2"/>
+			<line class="st9" x1="1128.7" y1="290" x2="1128.7" y2="234.2"/>
+			<line class="st7" x1="1128.7" y1="345.8" x2="1128.7" y2="290"/>
+			<line class="st8" x1="1128.7" y1="359.7" x2="1128.7" y2="345.8"/>
+			<line class="st8" x1="1128.7" y1="373.7" x2="1128.7" y2="359.7"/>
+			<line class="st11" x1="233.3" y1="345.8" x2="256" y2="345.8"/>
+			<line class="st11" x1="301.3" y1="345.8" x2="324" y2="345.8"/>
+			<line class="st11" x1="369.3" y1="364.4" x2="392" y2="364.4"/>
+			<line class="st11" x1="437.3" y1="327.2" x2="460" y2="327.2"/>
+			<line class="st11" x1="505.3" y1="327.2" x2="528" y2="327.2"/>
+			<line class="st11" x1="573.3" y1="364.4" x2="596" y2="364.4"/>
+			<line class="st11" x1="641.3" y1="308.6" x2="664" y2="308.6"/>
+			<line class="st11" x1="845.3" y1="366.1" x2="868" y2="366.1"/>
+			<line class="st11" x1="913.3" y1="372.5" x2="936" y2="372.5"/>
+			<line class="st11" x1="981.3" y1="336.9" x2="1004" y2="336.9"/>
+			<line class="st11" x1="1049.3" y1="271.4" x2="1072" y2="271.4"/>
+			<line class="st11" x1="1117.3" y1="345.8" x2="1140" y2="345.8"/>
 		</g>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="376.7" y1="491.2" x2="376.7" y2="454"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="376.7" y1="528.4" x2="376.7" y2="491.2"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="444.7" y1="444.7" x2="444.7" y2="398.2"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="444.7" y1="491.2" x2="444.7" y2="444.7"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="512.7" y1="477.2" x2="512.7" y2="435.4"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="512.7" y1="509.8" x2="512.7" y2="477.2"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="512.7" y1="528.4" x2="512.7" y2="509.8"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="580.7" y1="472.6" x2="580.7" y2="454"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="580.7" y1="500.5" x2="580.7" y2="472.6"/>
-		
-			<line opacity="0.3" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="580.7" y1="528.4" x2="580.7" y2="500.5"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="648.7" y1="472.6" x2="648.7" y2="430.7"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="648.7" y1="484.8" x2="648.7" y2="472.6"/>
-		
-			<line opacity="0.3" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="648.7" y1="521.4" x2="648.7" y2="484.8"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="716.7" y1="491.2" x2="716.7" y2="454"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="716.7" y1="509.8" x2="716.7" y2="491.2"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="716.7" y1="526" x2="716.7" y2="509.8"/>
-		
-			<line opacity="0.3" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="716.7" y1="546.9" x2="716.7" y2="526"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="784.7" y1="454" x2="784.7" y2="416.8"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="784.7" y1="461" x2="784.7" y2="454"/>
-		
-			<line opacity="0.3" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="784.7" y1="519.1" x2="784.7" y2="461"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="852.7" y1="426.1" x2="852.7" y2="454"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="920.7" y1="449.3" x2="920.7" y2="435.4"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="920.7" y1="494.7" x2="920.7" y2="449.3"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="920.7" y1="528.4" x2="920.7" y2="494.7"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="988.7" y1="437.7" x2="988.7" y2="333.1"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="988.7" y1="511.5" x2="988.7" y2="437.7"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="988.7" y1="551.6" x2="988.7" y2="511.5"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1056.7" y1="457.8" x2="1056.7" y2="356.4"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1056.7" y1="517.9" x2="1056.7" y2="457.8"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1056.7" y1="528.4" x2="1056.7" y2="517.9"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1124.7" y1="445.9" x2="1124.7" y2="333.1"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1124.7" y1="481.9" x2="1124.7" y2="445.9"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1124.7" y1="528.4" x2="1124.7" y2="481.9"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1124.7" y1="542.3" x2="1124.7" y2="528.4"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1192.7" y1="398.2" x2="1192.7" y2="379.6"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1192.7" y1="416.8" x2="1192.7" y2="398.2"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1192.7" y1="479.6" x2="1192.7" y2="416.8"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1192.7" y1="542.3" x2="1192.7" y2="479.6"/>
-		<line fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1260.7" y1="435.4" x2="1260.7" y2="379.6"/>
-		
-			<line opacity="0.7" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1260.7" y1="491.2" x2="1260.7" y2="435.4"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1260.7" y1="505.1" x2="1260.7" y2="491.2"/>
-		
-			<line opacity="0.5" fill="none" stroke="#30D49D" stroke-width="10" stroke-miterlimit="10" x1="1260.7" y1="519.1" x2="1260.7" y2="505.1"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="365.3" y1="491.2" x2="388" y2="491.2"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="433.3" y1="491.2" x2="456" y2="491.2"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="501.3" y1="509.8" x2="524" y2="509.8"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="569.3" y1="472.6" x2="592" y2="472.6"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="637.3" y1="472.6" x2="660" y2="472.6"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="705.3" y1="509.8" x2="728" y2="509.8"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="773.3" y1="454" x2="796" y2="454"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="977.3" y1="511.5" x2="1000" y2="511.5"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="1045.3" y1="517.9" x2="1068" y2="517.9"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="1113.3" y1="482.3" x2="1136" y2="482.3"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="1181.3" y1="416.8" x2="1204" y2="416.8"/>
-		<line fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" x1="1249.3" y1="491.2" x2="1272" y2="491.2"/>
+		<g id="mediane">
+			<g>
+				<text transform="matrix(1 0 0 1 3.051758e-04 147.2156)" class="st12 st5 st13">outliers</text>
+				<text transform="matrix(1 0 0 1 3.051758e-04 322.5171)" class="st12 st5 st13">25% of</text>
+				<text transform="matrix(1 0 0 1 3.051758e-04 336.9171)" class="st12 st5 st13">reports</text>
+				<text transform="matrix(1 0 0 1 1.220703e-04 381.3164)" class="st12 st5 st13">25% of</text>
+				<text transform="matrix(1 0 0 1 1.220703e-04 395.7163)" class="st12 st5 st13">reports</text>
+				<text transform="matrix(1 0 0 1 1.220703e-04 442.7118)" class="st12 st5 st13">year</text>
+				<text transform="matrix(1 0 0 1 0 205.0164)" class="st12 st5 st13">25% of</text>
+				<text transform="matrix(1 0 0 1 0 219.4165)" class="st12 st5 st13">reports</text>
+				<text transform="matrix(1 0 0 1 -1.831055e-04 263.7668)" class="st12 st5 st13">25% of</text>
+				<text transform="matrix(1 0 0 1 -1.831055e-04 278.1667)" class="st12 st5 st13">reports</text>
+				<text transform="matrix(1 0 0 1 3.051758e-04 96.9529)" class="st12 st3 st13">LEGEND</text>
+				<text transform="matrix(1 0 0 1 0 300.3522)" class="st12 st5 st13">median</text>
+				<g>
+					<text transform="matrix(1 0 0 1 -1.220703e-04 481.5553)" class="st12 st5 st13">n° of</text>
+					<text transform="matrix(1 0 0 1 -1.220703e-04 495.9553)" class="st12 st5 st13">reports</text>
+				</g>
+				<circle class="st14" cx="100.3" cy="464.7" r="5.6"/>
+				<text transform="matrix(1 0 0 1 91.0204 442.169)" class="st12 st5 st2">2000</text>
+				<line class="st15" x1="100.3" y1="238.4" x2="100.3" y2="179.6"/>
+				<line class="st15" x1="100.3" y1="238.4" x2="100.3" y2="179.6"/>
+				<line class="st16" x1="100.3" y1="297.1" x2="100.3" y2="238.4"/>
+				<line class="st15" x1="100.3" y1="238.4" x2="100.3" y2="179.6"/>
+				<line class="st17" x1="100.3" y1="355.9" x2="100.3" y2="297.1"/>
+				<line class="st18" x1="100.3" y1="414.7" x2="100.3" y2="355.9"/>
+				<line class="st19" x1="88.3" y1="297.1" x2="112.3" y2="297.1"/>
+				<text transform="matrix(1 0 0 1 97.7964 496.1699)" class="st12 st3 st2">4</text>
+				<line class="st19" x1="102.3" y1="146.8" x2="98.3" y2="142.8"/>
+				<line class="st19" x1="102.3" y1="142.8" x2="98.3" y2="146.8"/>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="144.8" x2="53.6" y2="144.8"/>
+						<g>
+							<polygon class="st12" points="72.1,142.7 71.8,143.1 73.6,144.8 71.8,146.4 72.1,146.8 74.3,144.8 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="209" x2="53.6" y2="209"/>
+						<g>
+							<polygon class="st12" points="72.1,206.9 71.8,207.3 73.6,209 71.8,210.6 72.1,211 74.3,209 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="268.5" x2="53.6" y2="268.5"/>
+						<g>
+							<polygon class="st12" points="72.1,266.5 71.8,266.8 73.6,268.5 71.8,270.2 72.1,270.6 74.3,268.5 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="297.1" x2="53.6" y2="297.1"/>
+						<g>
+							<polygon class="st12" points="72.1,295 71.8,295.4 73.6,297.1 71.8,298.7 72.1,299.1 74.3,297.1 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="326.5" x2="53.6" y2="326.5"/>
+						<g>
+							<polygon class="st12" points="72.1,324.4 71.8,324.8 73.6,326.5 71.8,328.1 72.1,328.5 74.3,326.5 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="385.3" x2="53.6" y2="385.3"/>
+						<g>
+							<polygon class="st12" points="72.1,383.2 71.8,383.6 73.6,385.3 71.8,386.9 72.1,387.3 74.3,385.3 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="439.5" x2="53.6" y2="439.5"/>
+						<g>
+							<polygon class="st12" points="72.1,437.4 71.8,437.8 73.6,439.5 71.8,441.1 72.1,441.5 74.3,439.5 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="464.7" x2="53.6" y2="464.7"/>
+						<g>
+							<polygon class="st12" points="72.1,462.6 71.8,463 73.6,464.7 71.8,466.3 72.1,466.7 74.3,464.7 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<line class="st19" x1="73.8" y1="492.2" x2="53.6" y2="492.2"/>
+						<g>
+							<polygon class="st12" points="72.1,490.2 71.8,490.6 73.6,492.2 71.8,493.9 72.1,494.3 74.3,492.2 							"/>
+						</g>
+					</g>
+				</g>
+				<polyline class="st19" points="91,456.9 86.3,456.9 86.3,472.4 91,472.4 				"/>
+			</g>
+		</g>
 	</g>
-	<g id="mediane">
+	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 132.0003 292.6335)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">outliers</text>
-			<text transform="matrix(1 0 0 1 132.0003 467.935)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">25% of</text>
-			<text transform="matrix(1 0 0 1 132.0003 482.335)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">reports</text>
-			<text transform="matrix(1 0 0 1 132.0001 526.7344)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">25% of</text>
-			<text transform="matrix(1 0 0 1 132.0001 541.1343)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">reports</text>
-			<text transform="matrix(1 0 0 1 132.0001 588.1297)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">year</text>
-			<text transform="matrix(1 0 0 1 132 350.4344)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">25% of</text>
-			<text transform="matrix(1 0 0 1 132 364.8344)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">reports</text>
-			<text transform="matrix(1 0 0 1 131.9998 409.1847)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">25% of</text>
-			<text transform="matrix(1 0 0 1 131.9998 423.5847)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">reports</text>
-			<text transform="matrix(1 0 0 1 132.0003 242.3708)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="12px">LEGEND</text>
-			<text transform="matrix(1 0 0 1 132 445.7701)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">median</text>
 			<g>
-				<text transform="matrix(1 0 0 1 131.9999 626.9732)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">n° of</text>
-				<text transform="matrix(1 0 0 1 131.9999 641.3732)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="12px">reports</text>
-			</g>
-			<circle fill="none" stroke="#373737" stroke-width="0.9854" cx="232.3" cy="610.1" r="5.6"/>
-			<text transform="matrix(1 0 0 1 223.0204 587.5869)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="300"  font-size="10px">2000</text>
-			<line fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" x1="232.3" y1="383.8" x2="232.3" y2="325"/>
-			<line fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" x1="232.3" y1="383.8" x2="232.3" y2="325"/>
-			
-				<line opacity="0.8" fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" enable-background="new    " x1="232.3" y1="442.5" x2="232.3" y2="383.8"/>
-			<line fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" x1="232.3" y1="383.8" x2="232.3" y2="325"/>
-			
-				<line opacity="0.5" fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" enable-background="new    " x1="232.3" y1="501.3" x2="232.3" y2="442.5"/>
-			
-				<line opacity="0.3" fill="none" stroke="#373737" stroke-width="10" stroke-miterlimit="10" enable-background="new    " x1="232.3" y1="560.1" x2="232.3" y2="501.3"/>
-			<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="220.3" y1="442.5" x2="244.3" y2="442.5"/>
-			<text transform="matrix(1 0 0 1 229.7964 641.5878)" fill="#373737" font-family="'Source Sans Pro', sans-serif" font-weight="700"  font-size="10px">4</text>
-			<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="234.3" y1="292.2" x2="230.3" y2="288.2"/>
-			<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="234.3" y1="288.2" x2="230.3" y2="292.2"/>
-			<g>
+				<line class="st19" x1="151.5" y1="413" x2="151.5" y2="103.1"/>
 				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="290.2" x2="185.6" y2="290.2"/>
-					<g>
-						<polygon fill="#373737" points="204.1,288.1 203.8,288.5 205.6,290.2 203.8,291.8 204.1,292.2 206.3,290.2 						"/>
-					</g>
+					<polygon class="st12" points="153.5,104.8 153.2,105.1 151.5,103.3 149.8,105.1 149.5,104.8 151.5,102.6 					"/>
 				</g>
 			</g>
+		</g>
+		<g>
+			<rect x="123.3" y="230.6" class="st20" width="60.7" height="39.7"/>
 			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="354.4" x2="185.6" y2="354.4"/>
-					<g>
-						<polygon fill="#373737" points="204.1,352.3 203.8,352.7 205.6,354.4 203.8,356 204.1,356.4 206.3,354.4 						"/>
-					</g>
-				</g>
+				<text transform="matrix(1 0 0 1 135 244.8614)" class="st12 st5 st13">dosage</text>
+				<text transform="matrix(1 0 0 1 135 259.2614)" class="st12 st5 st13">(grams)</text>
 			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="413.9" x2="185.6" y2="413.9"/>
-					<g>
-						<polygon fill="#373737" points="204.1,411.9 203.8,412.2 205.6,413.9 203.8,415.6 204.1,416 206.3,413.9 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="442.5" x2="185.6" y2="442.5"/>
-					<g>
-						<polygon fill="#373737" points="204.1,440.4 203.8,440.8 205.6,442.5 203.8,444.1 204.1,444.5 206.3,442.5 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="471.9" x2="185.6" y2="471.9"/>
-					<g>
-						<polygon fill="#373737" points="204.1,469.8 203.8,470.2 205.6,471.9 203.8,473.5 204.1,473.9 206.3,471.9 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="530.7" x2="185.6" y2="530.7"/>
-					<g>
-						<polygon fill="#373737" points="204.1,528.6 203.8,529 205.6,530.7 203.8,532.3 204.1,532.7 206.3,530.7 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="584.9" x2="185.6" y2="584.9"/>
-					<g>
-						<polygon fill="#373737" points="204.1,582.8 203.8,583.2 205.6,584.9 203.8,586.5 204.1,586.9 206.3,584.9 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="610.1" x2="185.6" y2="610.1"/>
-					<g>
-						<polygon fill="#373737" points="204.1,608 203.8,608.4 205.6,610.1 203.8,611.7 204.1,612.1 206.3,610.1 						"/>
-					</g>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" x1="205.8" y1="637.6" x2="185.6" y2="637.6"/>
-					<g>
-						<polygon fill="#373737" points="204.1,635.6 203.8,636 205.6,637.6 203.8,639.3 204.1,639.7 206.3,637.6 						"/>
-					</g>
-				</g>
-			</g>
-			<polyline fill="none" stroke="#373737" stroke-width="0.5" stroke-linejoin="round" points="223,602.3 218.3,602.3 218.3,617.8 
-				223,617.8 			"/>
 		</g>
 	</g>
 </g>
