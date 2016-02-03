@@ -170,7 +170,7 @@ var makeBump = function(substance,type){
             .enter()
             .append('p')
             .attr('class', function(d){
-              return 'bumpList ' + d.key
+              return 'bumpList ' + d.key.replace(/\./g,'').replace(/\//g,'').replace(/ /g,'')
             })
             .text(function(d){
               return d.key + ' ' + d.values
@@ -247,7 +247,7 @@ var makeBump = function(substance,type){
               .data(layers)
               .enter().append("path")
                   .attr("class",function(d){
-                    return "layer " + d[0].group
+                    return "layer " + d[0].group.replace(/\./g,'').replace(/\//g,'').replace(/ /g,'')
                   })
                   .attr("d", area)
                   .attr("title", function (d){ return d[0].group; })
@@ -268,7 +268,7 @@ var makeBump = function(substance,type){
 
                       $('#bumpList').stop();
                       $('#bumpList').animate({
-                           scrollTop: $("#bumpList ." +d[0].group).offset().top- $("#bumpList").offset().top + $("#bumpList").scrollTop()
+                           scrollTop: $("#bumpList ." +d[0].group.replace(/\./g,'').replace(/\//g,'').replace(/ /g,'')).offset().top- $("#bumpList").offset().top + $("#bumpList").scrollTop()
                        }, 500);
 
                     d3.select('#bumpList').selectAll('.bumpList')
