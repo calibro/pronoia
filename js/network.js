@@ -1,5 +1,37 @@
 var sigInst;
 
+var subDict = {
+  'amphetamines':'stimulants',
+  'amt':'stimulants',
+  'cocaine':'stimulants',
+  'nutmeg':'stimulants',
+  'ayahuasca':'hallucinogenics',
+  'dmt':'hallucinogenics',
+  'h.b. woodrose':'hallucinogenics',
+  'lsd':'hallucinogenics',
+  'mdma':'hallucinogenics',
+  'morning glory':'hallucinogenics',
+  'mushrooms':'hallucinogenics',
+  'nitrous oxide':'hallucinogenics',
+  'salvia divinorum':'hallucinogenics',
+  'syrian rue':'hallucinogenics',
+  'dxm':'sedatives',
+  'gbl':'sedatives',
+  'ghb':'sedatives',
+  'ketamine':'sedatives',
+  'kratom':'sedatives',
+  'melatonin':'supplements',
+  'modafinil':'supplements',
+  'piracetam':'supplements'
+}
+
+var shadesDict = {
+  stimulants : '#FF0815',
+  sedatives : '#2AEFEE',
+  supplements : '#1FD59C',
+  hallucinogenics : '#9578B3'
+}
+
 sigma.parsers.json('data/graph.json', {
     renderer:{
       type: 'canvas',
@@ -9,7 +41,7 @@ sigma.parsers.json('data/graph.json', {
       mouseWheelEnabled: false,
       zoomMin: 0.1,
       zoomMax: 1,
-      labelThreshold: 6,
+      labelThreshold: 8,
       font: 'SourceSansPro-Regular',
       labelSize: 'proportional',
       labelSizeRatio: 1.5,
@@ -17,7 +49,7 @@ sigma.parsers.json('data/graph.json', {
       labelAlignment: 'top',
       borderColor: '#FDFDFD',
       doubleClickEnabled: false,
-      minNodeSize: 2,
+      minNodeSize: 5,
       maxNodeSize: 15
     }
 }, function(s) {
@@ -113,6 +145,12 @@ sigma.parsers.json('data/graph.json', {
       filter.neighborsOf(node.id).apply();
       var linked = sigInst.graph.nodes().filter(function(d){return !d.hidden && d.id != node.id})
 
+      var edges = sigInst.graph.edges().filter(function(d){
+        return d.source == node.id || d.target == node.id
+      })
+
+      var edgesScale = d3.scale.linear().domain(d3.extent(edges,function(d){return d.size})).range([0.10,1.00])
+
 
       d3.select('.selectedNodes')
         .html("<h4>selected node</h4><p>" + node.label+"</p>");
@@ -133,8 +171,16 @@ sigma.parsers.json('data/graph.json', {
         .enter()
         .append('span')
         .attr('class', 'linkButton badge')
+        .style('background-color', function(d){
+          if(subDict[d.label.toLowerCase()]){
+            return shadesDict[subDict[d.label.toLowerCase()]]
+          }
+        })
         .text(function(d){
-          return d.label
+          var linkvalue = edges.filter(function(e){
+            return d.id == e.source || d.id == e.target
+          })[0].size;
+          return d.label + ' [' + d3.round(edgesScale(linkvalue),2) + ']'
         }).on('click', function(d){
           var elm = sigInst.graph.nodes().filter(function(e){return e.id == d.id})[0]
           selectNode(elm)
@@ -159,6 +205,12 @@ sigma.parsers.json('data/graph.json', {
         var linked = sigInst.graph.nodes().filter(function(d){return !d.hidden && d.id != e.data.node.id})
 
 
+        var edges = sigInst.graph.edges().filter(function(d){
+          return d.source == e.data.node.id || d.target == e.data.node.id
+        })
+
+        var edgesScale = d3.scale.linear().domain(d3.extent(edges,function(d){return d.size})).range([0.10,1.00])
+
         d3.select('.selectedNodes')
           .html("<h4>selected node</h4><p>" + e.data.node.label+"</p>");
 
@@ -178,8 +230,16 @@ sigma.parsers.json('data/graph.json', {
           .enter()
           .append('span')
           .attr('class', 'linkButton badge')
+          .style('background-color', function(d){
+            if(subDict[d.label.toLowerCase()]){
+              return shadesDict[subDict[d.label.toLowerCase()]]
+            }
+          })
           .text(function(d){
-            return d.label
+            var linkvalue = edges.filter(function(e){
+              return d.id == e.source || d.id == e.target
+            })[0].size;
+            return d.label + ' [' + d3.round(edgesScale(linkvalue),2) + ']'
           }).on('click', function(d){
             selectNode(d)
           })
