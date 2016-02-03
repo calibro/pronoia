@@ -418,11 +418,14 @@ line-height: 29px;
 
 .node:hover{
 
-  transform: scale(1.2, 1.2);
+  transform: scale(1.6, 1.6);
   z-index: 9999;
   color: white;
   border: 1px solid #F6F6F6;
   font-size: 12px !important;
+  text-align: center;
+   padding: 10px;
+  word-break: break-all;
 }
 
 /*BIGRAMS*/

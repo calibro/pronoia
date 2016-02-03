@@ -12,7 +12,7 @@
                     "label": null
                 },
                 {
-                    "name": "Amt",
+                    "name": "AMT",
                     "class": "substance",
                     "size": 236,
                     "color": "stimulants",
@@ -46,7 +46,7 @@
                     "label": null
                 },
                 {
-                    "name": "Dmt",
+                    "name": "DMT",
                     "class": "substance",
                     "size": 338,
                     "color": "hallucinogenics",
@@ -115,7 +115,7 @@
             "class": "category",
             "children": [
                 {
-                    "name": "Dxm",
+                    "name": "DXM",
                     "class": "substance",
                     "size": 581,
                     "color": "sedatives",
