@@ -965,7 +965,7 @@ line-height: 29px;
 /*FOOTER*/
 #footer{
 background-color: #FFF4F4;
-min-height: 160px;
+min-height: 250px;
 width: 100%;
 padding-right: 0px;
 padding-left: 0px;
@@ -1017,3 +1017,12 @@ padding-top: 30px;
     opacity: 0.7;
 
   }
+  .mail{
+    font-weight: 300;
+  }
+
+
+
+#comments{
+  padding-top: 70px;
+}
