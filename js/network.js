@@ -149,9 +149,6 @@ sigma.parsers.json('data/graph.json', {
         return d.source == node.id || d.target == node.id
       })
 
-      var edgesScale = d3.scale.linear().domain(d3.extent(edges,function(d){return d.size})).range([0.10,1.00])
-
-
       d3.select('.selectedNodes')
         .html("<h4>selected node</h4><p>" + node.label+"</p>");
 
@@ -180,7 +177,7 @@ sigma.parsers.json('data/graph.json', {
           var linkvalue = edges.filter(function(e){
             return d.id == e.source || d.id == e.target
           })[0].size;
-          return d.label + ' [' + d3.round(edgesScale(linkvalue),2) + ']'
+          return d.label + ' [' + linkvalue + ']'
         }).on('click', function(d){
           var elm = sigInst.graph.nodes().filter(function(e){return e.id == d.id})[0]
           selectNode(elm)
@@ -208,8 +205,6 @@ sigma.parsers.json('data/graph.json', {
         var edges = sigInst.graph.edges().filter(function(d){
           return d.source == e.data.node.id || d.target == e.data.node.id
         })
-
-        var edgesScale = d3.scale.linear().domain(d3.extent(edges,function(d){return d.size})).range([0.10,1.00])
 
         d3.select('.selectedNodes')
           .html("<h4>selected node</h4><p>" + e.data.node.label+"</p>");
@@ -239,7 +234,7 @@ sigma.parsers.json('data/graph.json', {
             var linkvalue = edges.filter(function(e){
               return d.id == e.source || d.id == e.target
             })[0].size;
-            return d.label + ' [' + d3.round(edgesScale(linkvalue),2) + ']'
+            return d.label + ' [' + linkvalue + ']'
           }).on('click', function(d){
             selectNode(d)
           })
