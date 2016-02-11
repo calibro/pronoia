@@ -47,7 +47,7 @@ sigma.parsers.json('data/graph.json', {
       labelSizeRatio: 1.5,
       maxEdgeSize:10,
       labelAlignment: 'top',
-      borderColor: '#FDFDFD',
+      borderColor: '#5d5d5d',
       doubleClickEnabled: false,
       minNodeSize: 5,
       maxNodeSize: 15
